@@ -4,8 +4,16 @@ import { FormsModule } from "@angular/forms";
 import { BrowserModule, HammerModule } from "@angular/platform-browser";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import {
-    IgxAutocompleteModule, IgxButtonModule, IgxDropDownModule,
-    IgxIconModule, IgxInputGroupModule, IgxLayoutModule, IgxNavbarModule, IgxNavigationDrawerModule, IgxRippleModule
+    IgxAutocompleteModule,
+    IgxButtonModule,
+    IgxDateTimeEditorDirective,
+    IgxDropDownModule,
+    IgxIconModule,
+    IgxInputGroupModule,
+    IgxLayoutModule,
+    IgxNavbarModule,
+    IgxNavigationDrawerModule,
+    IgxRippleModule
 } from "igniteui-angular";
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
@@ -24,6 +32,7 @@ import { IndexComponent } from "./index/index.component";
     imports: [
         AppRoutingModule,
         IgxAutocompleteModule,
+        IgxDateTimeEditorDirective,
         IgxRippleModule,
         IgxNavbarModule,
         IgxNavigationDrawerModule,
@@ -39,4 +48,4 @@ import { IndexComponent } from "./index/index.component";
     ],
     providers: []
 })
-export class AppModule { }
+export class AppModule {}
