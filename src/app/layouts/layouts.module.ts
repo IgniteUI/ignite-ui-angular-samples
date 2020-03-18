@@ -61,15 +61,15 @@ import { LayoutJustifyContentComponent } from "./layout/layout-justify-content/l
 import { LayoutSampleComponent } from "./layout/layout-sample/layout-sample.component";
 import { LayoutWrapComponent } from "./layout/layout-wrap/layout-wrap.component";
 import { LayoutsRoutingModule } from "./layouts-routing.module";
-import { TabbarSample1Component } from "./tabbar/tabbar-sample-1/tabbar-sample-1.component";
-import { TabbarSample2Component } from "./tabbar/tabbar-sample-2/tabbar-sample-2.component";
-import { TabbarSample3Component } from "./tabbar/tabbar-sample-3/components/tabbar-sample-3.component";
-import { TabbarStyleComponent } from "./tabbar/tabbar-style/tabbar-style.component";
-import { TabsSample1Component } from "./tabs/tabs-sample-1/tabs-sample-1.component";
-import { TabsSample2Component } from "./tabs/tabs-sample-2/tabs-sample-2.component";
-import { TabsSample3Component } from "./tabs/tabs-sample-3/tabs-sample-3.component";
-import { TabsSample4Component } from "./tabs/tabs-sample-4/components/tabs-sample-4.component";
-import { TabsStyleComponent } from "./tabs/tabs-style/tabs-style.component";
+// import { TabbarSample1Component } from "./tabbar/tabbar-sample-1/tabbar-sample-1.component";
+// import { TabbarSample2Component } from "./tabbar/tabbar-sample-2/tabbar-sample-2.component";
+// import { TabbarSample3Component } from "./tabbar/tabbar-sample-3/components/tabbar-sample-3.component";
+// import { TabbarStyleComponent } from "./tabbar/tabbar-style/tabbar-style.component";
+// import { TabsSample1Component } from "./tabs/tabs-sample-1/tabs-sample-1.component";
+// import { TabsSample2Component } from "./tabs/tabs-sample-2/tabs-sample-2.component";
+// import { TabsSample3Component } from "./tabs/tabs-sample-3/tabs-sample-3.component";
+// import { TabsSample4Component } from "./tabs/tabs-sample-4/components/tabs-sample-4.component";
+// import { TabsStyleComponent } from "./tabs/tabs-style/tabs-style.component";
 
 @NgModule({
     declarations: [
@@ -105,16 +105,16 @@ import { TabsStyleComponent } from "./tabs/tabs-style/tabs-style.component";
         LayoutContentSpaceComponent,
         LayoutSampleComponent,
         LayoutWrapComponent,
-        TabbarSample1Component,
-        TabbarSample2Component,
-        TabbarSample3Component,
-        TabsSample1Component,
-        TabsSample2Component,
-        TabsSample3Component,
-        TabsSample4Component,
+        // TabbarSample1Component,
+        // TabbarSample2Component,
+        // TabbarSample3Component,
+        // TabsSample1Component,
+        // TabsSample2Component,
+        // TabsSample3Component,
+        // TabsSample4Component,
         CardStylingSampleComponent,
-        TabsStyleComponent,
-        TabbarStyleComponent
+        // TabsStyleComponent,
+        // TabbarStyleComponent
     ],
     exports: [
         CardSample1Component

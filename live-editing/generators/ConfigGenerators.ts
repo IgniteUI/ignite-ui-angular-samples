@@ -23,7 +23,7 @@ import { ForConfigGenerator } from "../configs/ForConfigGenerator";
 import { GridConfigGenerator } from "../configs/GridConfigGenerator";
 import { HierarchicalGridConfigGenerator } from "../configs/HierarchicalGridConfigGenerator";
 import { IconConfigGenerator } from "../configs/IconConfigGenerator";
-import { InputGroupConfigGenerator } from "../configs/InputGroupConfigGenerator";
+// import { InputGroupConfigGenerator } from "../configs/InputGroupConfigGenerator";
 import { LayoutConfigGenerator } from "../configs/LayoutConfigGenerator";
 import { LinearProgressbarConfigGenerator } from "../configs/LinearProgressbarConfigGenerator";
 import { ListConfigGenerator } from "../configs/ListConfigGenerator";
@@ -39,8 +39,8 @@ import { SelectConfigGenerator } from "../configs/SelectConfigGenerator";
 import { SliderConfigGenerator } from "../configs/SliderConfigGenerator";
 import { SnackbarConfigGenerator } from "../configs/SnackbarConfigGenerator";
 import { SwitchConfigGenerator } from "../configs/SwitchConfigGenerator";
-import { TabBarConfigGenerator } from "../configs/TabBarConfigGenerator";
-import { TabsConfigGenerator } from "../configs/TabsConfigGenerator";
+// import { TabBarConfigGenerator } from "../configs/TabBarConfigGenerator";
+// import { TabsConfigGenerator } from "../configs/TabsConfigGenerator";
 import { TextHighlightConfigGenerator } from "../configs/TextHighlightConfigGenerator";
 import { ThemingConfigGenerator } from "../configs/ThemingConfigGenerator";
 import { TimePickerConfigGenerator } from "../configs/TimePickerConfigGenerator";
@@ -70,8 +70,8 @@ export const CONFIG_GENERATORS =
         ListConfigGenerator,
         NavbarConfigGenerator,
         NavdrawerConfigGenerator,
-        TabBarConfigGenerator,
-        TabsConfigGenerator,
+        // TabBarConfigGenerator,
+        // TabsConfigGenerator,
 
         // selectors:
         AutocompleteConfigGenerator,
@@ -82,7 +82,7 @@ export const CONFIG_GENERATORS =
         ComboConfigGenerator,
         DatePickerConfigGenerator,
         DropDownConfigGenerator,
-        InputGroupConfigGenerator,
+        // InputGroupConfigGenerator,
         MaskConfigGenerator,
         MonthPickerConfigGenerator,
         RadioConfigGenerator,

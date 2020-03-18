@@ -45,14 +45,14 @@ import { DropDownSample3Component } from "./dropdown/dropdown-sample-3/dropdown-
 import { DropDownSample4Component } from "./dropdown/dropdown-sample-4/dropdown-sample-4.component";
 import { DropDownSample5Component } from "./dropdown/dropdown-sample-5/dropdown-sample-5.component";
 import { DropDownStylingComponent } from "./dropdown/dropdown-styling/dropdown-styling.component";
-import { InputGroupSample1Component } from "./input-group/input-group-sample-1/input-group-sample-1.component";
-import { InputGroupSample2Component } from "./input-group/input-group-sample-2/input-group-sample-2.component";
-import { InputGroupSample3Component } from "./input-group/input-group-sample-3/input-group-sample-3.component";
-import { InputGroupSample4Component } from "./input-group/input-group-sample-4/input-group-sample-4.component";
-import { InputGroupSample5Component } from "./input-group/input-group-sample-5/input-group-sample-5.component";
-import { InputGroupSample6Component } from "./input-group/input-group-sample-6/input-group-sample-6.component";
-import { InputGroupStyleComponent } from "./input-group/input-group-styling/input-group-styling.component";
-import { ReactiveFormsSampleComponent } from "./input-group/reactive-forms/reactive-forms.component";
+// import { InputGroupSample1Component } from "./input-group/input-group-sample-1/input-group-sample-1.component";
+// import { InputGroupSample2Component } from "./input-group/input-group-sample-2/input-group-sample-2.component";
+// import { InputGroupSample3Component } from "./input-group/input-group-sample-3/input-group-sample-3.component";
+// import { InputGroupSample4Component } from "./input-group/input-group-sample-4/input-group-sample-4.component";
+// import { InputGroupSample5Component } from "./input-group/input-group-sample-5/input-group-sample-5.component";
+// import { InputGroupSample6Component } from "./input-group/input-group-sample-6/input-group-sample-6.component";
+// import { InputGroupStyleComponent } from "./input-group/input-group-styling/input-group-styling.component";
+// import { ReactiveFormsSampleComponent } from "./input-group/reactive-forms/reactive-forms.component";
 import { RadioGroupSampleComponent } from "./radio/radio-group-sample/radio-group-sample.component";
 import { RadioSample1Component } from "./radio/radio-sample-1/radio-sample-1.component";
 import { RadioSample2Component } from "./radio/radio-sample-2/radio-sample-2.component";
@@ -99,15 +99,15 @@ import { SwitchSample2Component } from "./switch/switch-sample-2/switch-sample-2
         DropDownSample4Component,
         DropDownSample5Component,
         DropDownStylingComponent,
-        InputGroupSample1Component,
-        InputGroupSample2Component,
-        InputGroupSample3Component,
-        InputGroupSample4Component,
-        InputGroupSample5Component,
-        InputGroupSample6Component,
-        InputGroupStyleComponent,
+        // InputGroupSample1Component,
+        // InputGroupSample2Component,
+        // InputGroupSample3Component,
+        // InputGroupSample4Component,
+        // InputGroupSample5Component,
+        // InputGroupSample6Component,
+        // InputGroupStyleComponent,
         MovieComponent,
-        ReactiveFormsSampleComponent,
+        // ReactiveFormsSampleComponent,
         RadioGroupSampleComponent,
         RadioSample1Component,
         RadioSample2Component,

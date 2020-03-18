@@ -38,21 +38,21 @@ import { LayoutJustifyContentComponent } from "./layout/layout-justify-content/l
 import { LayoutSampleComponent } from "./layout/layout-sample/layout-sample.component";
 import { LayoutWrapComponent } from "./layout/layout-wrap/layout-wrap.component";
 import { layoutsRoutesData } from "./layouts-routes-data";
-import { TabbarSample1Component } from "./tabbar/tabbar-sample-1/tabbar-sample-1.component";
-import { TabbarSample2Component } from "./tabbar/tabbar-sample-2/tabbar-sample-2.component";
-import { TabbarSample3Component } from "./tabbar/tabbar-sample-3/components/tabbar-sample-3.component";
-import { TabbarStyleComponent } from "./tabbar/tabbar-style/tabbar-style.component";
-import { TabbarView1Component } from "./tabbar/views/view1/view1.component";
-import { TabbarView2Component } from "./tabbar/views/view2/view2.component";
-import { TabbarView3Component } from "./tabbar/views/view3/view3.component";
-import { TabsSample1Component } from "./tabs/tabs-sample-1/tabs-sample-1.component";
-import { TabsSample2Component } from "./tabs/tabs-sample-2/tabs-sample-2.component";
-import { TabsSample3Component } from "./tabs/tabs-sample-3/tabs-sample-3.component";
-import { TabsSample4Component } from "./tabs/tabs-sample-4/components/tabs-sample-4.component";
-import { TabsStyleComponent } from "./tabs/tabs-style/tabs-style.component";
-import { View1Component } from "./tabs/views/view1/view1.component";
-import { View2Component } from "./tabs/views/view2/view2.component";
-import { View3Component } from "./tabs/views/view3/view3.component";
+// import { TabbarSample1Component } from "./tabbar/tabbar-sample-1/tabbar-sample-1.component";
+// import { TabbarSample2Component } from "./tabbar/tabbar-sample-2/tabbar-sample-2.component";
+// import { TabbarSample3Component } from "./tabbar/tabbar-sample-3/components/tabbar-sample-3.component";
+// import { TabbarStyleComponent } from "./tabbar/tabbar-style/tabbar-style.component";
+// import { TabbarView1Component } from "./tabbar/views/view1/view1.component";
+// import { TabbarView2Component } from "./tabbar/views/view2/view2.component";
+// import { TabbarView3Component } from "./tabbar/views/view3/view3.component";
+// import { TabsSample1Component } from "./tabs/tabs-sample-1/tabs-sample-1.component";
+// import { TabsSample2Component } from "./tabs/tabs-sample-2/tabs-sample-2.component";
+// import { TabsSample3Component } from "./tabs/tabs-sample-3/tabs-sample-3.component";
+// import { TabsSample4Component } from "./tabs/tabs-sample-4/components/tabs-sample-4.component";
+// import { TabsStyleComponent } from "./tabs/tabs-style/tabs-style.component";
+// import { View1Component } from "./tabs/views/view1/view1.component";
+// import { View2Component } from "./tabs/views/view2/view2.component";
+// import { View3Component } from "./tabs/views/view3/view3.component";
 
 export const layoutsRoutes: Routes = [
     {
@@ -190,59 +190,59 @@ export const layoutsRoutes: Routes = [
         data: layoutsRoutesData["layout-wrap"],
         path: "layout-wrap"
     },
-    {
-        component: TabbarSample1Component,
-        data: layoutsRoutesData["tabbar-sample-1"],
-        path: "tabbar-sample-1"
-    },
-    {
-        component: TabbarSample2Component,
-        data: layoutsRoutesData["tabbar-sample-2"],
-        path: "tabbar-sample-2"
-    },
-    {
-        component: TabbarSample3Component,
-        data: layoutsRoutesData["tabbar-sample-3"],
-        path: "tabbar-sample-3",
-        children: [
-            { path: "tabbar-view1", component: TabbarView1Component },
-            { path: "tabbar-view2", component: TabbarView2Component },
-            { path: "tabbar-view3", component: TabbarView3Component }
-        ]
-    },
-    {
-        component: TabbarStyleComponent,
-        data: layoutsRoutesData["tabbar-style"],
-        path: "tabbar-style"
-    },
-    {
-        component: TabsSample1Component,
-        data: layoutsRoutesData["tabs-sample-1"],
-        path: "tabs-sample-1"
-    },
-    {
-        component: TabsSample2Component,
-        data: layoutsRoutesData["tabs-sample-2"],
-        path: "tabs-sample-2"
-    },
-    {
-        component: TabsSample3Component,
-        data: layoutsRoutesData["tabs-sample-3"],
-        path: "tabs-sample-3"
-    },
-    {
-        component: TabsSample4Component,
-        path: "tabs-sample-4",
-        children: [
-            { path: "view1", component: View1Component },
-            { path: "view2", component: View2Component },
-            { path: "view3", component: View3Component }
-        ]
-    },
-    {
-        component: TabsStyleComponent,
-        path: "tabs-style"
-    },
+    // {
+    //     component: TabbarSample1Component,
+    //     data: layoutsRoutesData["tabbar-sample-1"],
+    //     path: "tabbar-sample-1"
+    // },
+    // {
+    //     component: TabbarSample2Component,
+    //     data: layoutsRoutesData["tabbar-sample-2"],
+    //     path: "tabbar-sample-2"
+    // },
+    // {
+    //     component: TabbarSample3Component,
+    //     data: layoutsRoutesData["tabbar-sample-3"],
+    //     path: "tabbar-sample-3",
+    //     children: [
+    //         { path: "tabbar-view1", component: TabbarView1Component },
+    //         { path: "tabbar-view2", component: TabbarView2Component },
+    //         { path: "tabbar-view3", component: TabbarView3Component }
+    //     ]
+    // },
+    // {
+    //     component: TabbarStyleComponent,
+    //     data: layoutsRoutesData["tabbar-style"],
+    //     path: "tabbar-style"
+    // },
+    // {
+    //     component: TabsSample1Component,
+    //     data: layoutsRoutesData["tabs-sample-1"],
+    //     path: "tabs-sample-1"
+    // },
+    // {
+    //     component: TabsSample2Component,
+    //     data: layoutsRoutesData["tabs-sample-2"],
+    //     path: "tabs-sample-2"
+    // },
+    // {
+    //     component: TabsSample3Component,
+    //     data: layoutsRoutesData["tabs-sample-3"],
+    //     path: "tabs-sample-3"
+    // },
+    // {
+    //     component: TabsSample4Component,
+    //     path: "tabs-sample-4",
+    //     children: [
+    //         { path: "view1", component: View1Component },
+    //         { path: "view2", component: View2Component },
+    //         { path: "view3", component: View3Component }
+    //     ]
+    // },
+    // {
+    //     component: TabsStyleComponent,
+    //     path: "tabs-style"
+    // },
     {
         component: CardComponent,
         data: layoutsRoutesData["card-sample-0"],
