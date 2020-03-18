@@ -1,6 +1,6 @@
 import { Component, ViewChild, ViewEncapsulation } from "@angular/core";
 import { ColumnPinningPosition, IgxColumnComponent, IgxGridComponent } from "igniteui-angular";
-import { IPinningConfig } from "igniteui-angular/lib/grids/common/grid.interface";
+// import { IPinningConfig } from "igniteui-angular";
 import { data } from "../../data/athletesData";
 import { athletesData } from "../services/data";
 
@@ -19,7 +19,7 @@ export class RightPinningSampleComponent {
     public data: any[];
     public athletesData: any[];
     public columns: any[];
-    public pinningConfig: IPinningConfig = { columns: ColumnPinningPosition.End };
+    // public pinningConfig: IPinningConfig = { columns: ColumnPinningPosition.End };
     private _columnsPinned: boolean = true;
 
     public ngOnInit(): void {

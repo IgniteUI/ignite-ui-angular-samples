@@ -6,7 +6,7 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import {
     IgxAutocompleteModule,
     IgxButtonModule,
-    IgxDateTimeEditorDirective,
+    IgxDateTimeEditorModule,
     IgxDropDownModule,
     IgxIconModule,
     IgxInputGroupModule,
@@ -25,6 +25,7 @@ import { IndexComponent } from "./index/index.component";
     bootstrap: [AppComponent],
     declarations: [
         AppComponent,
+        // IgxDateTimeEditorDirective,
         HomeComponent,
         DocsLayoutComponent,
         IndexComponent
@@ -32,7 +33,7 @@ import { IndexComponent } from "./index/index.component";
     imports: [
         AppRoutingModule,
         IgxAutocompleteModule,
-        IgxDateTimeEditorDirective,
+        IgxDateTimeEditorModule,
         IgxRippleModule,
         IgxNavbarModule,
         IgxNavigationDrawerModule,
