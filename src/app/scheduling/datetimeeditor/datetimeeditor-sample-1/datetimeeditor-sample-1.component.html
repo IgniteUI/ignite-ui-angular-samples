@@ -1,0 +1,80 @@
+<!-- <div class="sample-wrapper">
+    <div>
+        <p>
+            DateTime editor with date and time
+        </p>
+        <igx-input-group>
+            <input
+                type="date"
+                igxInput
+                (valueChanged)="onValueChanged($event)"
+                [igxDateTimeEditor]="'ddd/M/yyyy HH:mm:ss tt'"
+                [(ngModel)]="date |"
+            />
+        </igx-input-group>
+    </div>
+
+    <div>
+        <p>
+            DateTime Editor with date only
+        </p>
+        <igx-input-group>
+            <input
+                type="date"
+                igxInput
+                (valueChanged)="onValueChanged($event)"
+                [igxDateTimeEditor]="'d/M/yy'"
+                [(ngModel)]="date"
+            />
+        </igx-input-group>
+    </div>
+
+    <div>
+        <p>
+            DateTime Editor with time only
+        </p>
+        <igx-input-group>
+            <input
+                type="date"
+                igxInput
+                (valueChanged)="onValueChanged($event)"
+                [igxDateTimeEditor]="'HH:mm:ss tt'"
+                [(ngModel)]="date"
+            />
+        </igx-input-group>
+    </div>
+</div> -->
+
+<div class="sample-wrapper">
+    <div>
+        <p>
+            DateTime Editor 1 (with date only)
+        </p>
+        <igx-input-group>
+            <input
+                type="text"
+                igxInput
+                [igxDateTimeEditor]="'dd/MM/yyyy'"
+                [(ngModel)]="date"
+                [isSpinLoop]="true"
+                (valueChanged)="onValueChanged($event)"
+            />
+        </igx-input-group>
+    </div>
+
+    <div>
+        <p>
+            DateTime Editor 2 (with date only)
+        </p>
+        <igx-input-group>
+            <input
+                type="text"
+                igxInput
+                [igxDateTimeEditor]="'dd/MM/yyyy'"
+                [(ngModel)]="date"
+                (valueChanged)="onValueChanged($event)"
+            />
+        </igx-input-group>
+    </div>
+    <p>{{ date }}</p>
+</div>

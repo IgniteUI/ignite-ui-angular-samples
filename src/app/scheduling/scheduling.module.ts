@@ -2,9 +2,10 @@ import { CommonModule } from "@angular/common";
 import { NgModule } from "@angular/core";
 import { FormsModule } from "@angular/forms";
 import {
-    IgxAutocompleteModule, IgxButtonModule, IgxCalendarModule, IgxCardModule, IgxDatePickerModule, IgxDialogModule,
-    IgxDropDownModule, IgxIconModule, IgxInputGroupModule, IgxSelectModule,
-    IgxSnackbarModule, IgxSwitchModule, IgxTimePickerModule, IgxToastModule, IgxToggleModule
+    IgxAutocompleteModule, IgxButtonModule, IgxCalendarModule, IgxCardModule, IgxDatePickerModule,
+    IgxDateTimeEditorModule, IgxDialogModule, IgxDropDownModule, IgxIconModule, IgxInputGroupModule,
+    IgxSelectModule, IgxSnackbarModule, IgxSwitchModule, IgxTimePickerModule, IgxToastModule,
+    IgxToggleModule
 } from "igniteui-angular";
 import { CalendarSample1Component } from "./calendar/calendar-sample-1/calendar-sample-1.component";
 import { CalendarSample2Component } from "./calendar/calendar-sample-2/calendar-sample-2.component";
@@ -92,6 +93,7 @@ import { TimePickerSample8Component } from "./timepicker/timepicker-sample-8/tim
         IgxCalendarModule,
         IgxCardModule,
         IgxDatePickerModule,
+        IgxDateTimeEditorModule,
         IgxDialogModule,
         IgxIconModule,
         IgxInputGroupModule,

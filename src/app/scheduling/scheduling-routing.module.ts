@@ -133,7 +133,7 @@ export const schedulingRoutes: Routes = [
     },
     {
         component: DateТimeЕditorSample1Component,
-        data: schedulingRoutesData["datetimeditor-sample-1"],
+        data: schedulingRoutesData["datetimeeditor-sample-1"],
         path: "datetimeeditor-sample-1"
     },
     {
