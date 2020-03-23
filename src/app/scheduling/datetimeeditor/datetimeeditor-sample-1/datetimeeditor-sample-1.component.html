@@ -56,25 +56,9 @@
                 igxInput
                 [igxDateTimeEditor]="'dd/MM/yyyy'"
                 [(ngModel)]="date"
-                [isSpinLoop]="true"
-                (valueChanged)="onValueChanged($event)"
             />
         </igx-input-group>
     </div>
 
-    <div>
-        <p>
-            DateTime Editor 2 (with date only)
-        </p>
-        <igx-input-group>
-            <input
-                type="text"
-                igxInput
-                [igxDateTimeEditor]="'dd/MM/yyyy'"
-                [(ngModel)]="date"
-                (valueChanged)="onValueChanged($event)"
-            />
-        </igx-input-group>
-    </div>
     <p>{{ date }}</p>
 </div>

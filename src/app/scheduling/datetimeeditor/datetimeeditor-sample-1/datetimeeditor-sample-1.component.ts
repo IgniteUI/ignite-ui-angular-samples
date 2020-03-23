@@ -16,13 +16,4 @@ export class DateТimeЕditorSample1Component implements OnInit {
     ngOnInit(): void {
 
     }
-
-    public onValueChanged(event: IgxDateTimeEditorEventArgs) {
-        console.log("value changed", event.oldValue, event.newValue);
-        // this.date = event.newValue;
-    }
-
-    public onValidationFailed(event: IgxDateTimeEditorEventArgs) {
-        console.log("validation failed", event.oldValue, event.newValue);
-    }
 }
