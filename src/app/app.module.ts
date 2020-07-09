@@ -1,5 +1,5 @@
 import { HttpClientModule } from "@angular/common/http";
-import { NgModule } from "@angular/core";
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from "@angular/core";
 import { FormsModule } from "@angular/forms";
 import { BrowserModule, HammerModule } from "@angular/platform-browser";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
@@ -12,7 +12,6 @@ import { AppComponent } from "./app.component";
 import { HomeComponent } from "./home/home.component";
 import { DocsLayoutComponent } from "./index/docs-layout.component";
 import { IndexComponent } from "./index/index.component";
-import { ThemingWidgetModule } from "@infragistics/igniteui-theming-widget";
 
 @NgModule({
     bootstrap: [AppComponent],
@@ -36,9 +35,11 @@ import { ThemingWidgetModule } from "@infragistics/igniteui-theming-widget";
         IgxButtonModule,
         FormsModule,
         HttpClientModule,
-        HammerModule,
-        ThemingWidgetModule
+        HammerModule
     ],
-    providers: []
+    providers: [],
+    schemas: [
+        CUSTOM_ELEMENTS_SCHEMA
+    ]
 })
 export class AppModule { }
