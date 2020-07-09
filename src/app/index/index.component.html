@@ -47,7 +47,9 @@
     </igx-nav-drawer>
 
     <div igxFlex class="main">
-        <igx-navbar [title]="selectedDisplayName" actionButtonIcon="menu" (onAction)="navdrawer.toggle()"></igx-navbar>
+        <igx-navbar [title]="selectedDisplayName" actionButtonIcon="menu" (onAction)="navdrawer.toggle()">
+            <igniteui-theming-widget themeUrl="http://localhost:59296/api/taas"></igniteui-theming-widget>
+        </igx-navbar>
         <div class="content">
             <router-outlet></router-outlet>
         </div>
