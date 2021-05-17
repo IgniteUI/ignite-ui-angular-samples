@@ -1,4 +1,4 @@
 [submodule "igniteui-live-editing-samples"]
 	path = igniteui-live-editing-samples
 	url = https://github.com/IgniteUI/igniteui-live-editing-samples
-    branch = vNext
+    branch = master

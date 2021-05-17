@@ -1,6 +1,14 @@
 @import './variables';
 @import './app-layout';
 
+.dark-theme {
+    background: #333;
+    color: #fff;
+
+    @include igx-dark-theme($default-palette);
+}
+
+
 /* autoprefixer grid: on */
 html,
 body {

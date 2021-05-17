@@ -206,6 +206,14 @@
     }
 }
 
+::ng-deep {
+    .preview-wrapper {
+        .igx-data-chart {
+            height: 200px !important;
+        }
+    }
+}
+
 .btn {
 
     &.condition {
