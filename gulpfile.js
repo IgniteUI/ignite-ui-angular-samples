@@ -3,6 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const domino = require('domino');
 const es = require('event-stream');
+var spawn = require('child_process').spawn;
 const fsExtra = require("fs-extra");
 const tsNode = require('ts-node').register({
     transpileOnly: true,
@@ -169,6 +170,27 @@ const cleanupAngularDemosLob = (cb) => {
     fsExtra.removeSync(submodule + "/angular-demos-lob");
     fsExtra.mkdirSync(submodule + "/angular-demos-lob");
     cb();
+}
+
+exports.compileSass = () => {
+    return gulp.src("./src/**/*.scss")
+    .pipe(
+        es.map(
+            (file, cb) =>{
+                spawn("sass", ["--no-source-map", "--load-path=src", "--style=compressed", `${file.path}:${file.path.replace("scss", "css")}`], {
+                    stdio: 'inherit'
+                }).on('close', function (err) {
+                    if (err) {
+                        var err = new Error('Kofti');
+                        err.showStack = false;
+                        cb(err, file);
+                    } else {
+                        cb(null, file);
+                    }
+                });
+            }
+        )
+    );
 }
 exports.repositoryfyAngularDemos = repositoryfyAngularDemos = gulp.series(cleanupAngularDemos, processDemosWithScss);
 exports.repositoryfyAngularDemosLob = repositoryfyAngularDemosLob =  gulp.series(cleanupAngularDemosLob, processDemosLobWithScss);

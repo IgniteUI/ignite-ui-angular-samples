@@ -22,7 +22,7 @@ import {
 
 @Component({
     selector: 'app-localization-all-resources',
-    styleUrls: ['./localization-all-resources.component.scss'],
+    styleUrls: ['./localization-all-resources.component.css'],
     templateUrl: 'localization-all-resources.component.html'
 })
 

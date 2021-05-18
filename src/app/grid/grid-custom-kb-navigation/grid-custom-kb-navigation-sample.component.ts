@@ -4,7 +4,7 @@ import { DATA } from '../../data/nwindData';
 
 @Component({
     selector: 'app-grid-custom-kb-navigation-sample',
-    styleUrls: ['./grid-custom-kb-navigation-sample.component.scss'],
+    styleUrls: ['./grid-custom-kb-navigation-sample.component.css'],
     templateUrl: 'grid-custom-kb-navigation-sample.component.html'
 })
 

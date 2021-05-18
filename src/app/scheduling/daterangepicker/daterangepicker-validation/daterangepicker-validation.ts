@@ -3,7 +3,7 @@ import { DateRange } from 'igniteui-angular';
 
 @Component({
     selector: 'app-daterangepicker-validation',
-    styleUrls: ['./daterangepicker-validation.scss'],
+    styleUrls: ['./daterangepicker-validation.css'],
     templateUrl: './daterangepicker-validation.html'
 })
 export class DateRangePickerValidationComponent {

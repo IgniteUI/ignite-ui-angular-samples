@@ -7,7 +7,7 @@ import { IMessage, MessagesService } from './services/messages.service';
 @Component({
     encapsulation: ViewEncapsulation.None,
     selector: 'app-list-chat-sample',
-    styleUrls: ['./list-chat-sample.component.scss'],
+    styleUrls: ['./list-chat-sample.component.css'],
     templateUrl: './list-chat-sample.component.html'
 })
 export class ListChatSampleComponent {

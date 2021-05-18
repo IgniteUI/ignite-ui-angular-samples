@@ -5,7 +5,7 @@ import { Singer } from '../models';
 
 @Component({
     selector: 'app-hierarchical-grid-editing-style',
-    styleUrls: ['./hierarchical-grid-editing-style.component.scss'],
+    styleUrls: ['./hierarchical-grid-editing-style.component.css'],
     templateUrl: 'hierarchical-grid-editing-style.component.html'
 })
 

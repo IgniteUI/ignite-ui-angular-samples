@@ -25,7 +25,7 @@ interface ICategoryOption {
 @Component({
     selector: 'app-material-icons-extended',
     templateUrl: './material-icons-extended.component.html',
-    styleUrls: ['./material-icons-extended.component.scss']
+    styleUrls: ['./material-icons-extended.component.css']
 })
 export class MaterialIconsExtendedComponent implements OnInit {
     constructor(

@@ -12,7 +12,7 @@ import { athletesData } from '../services/data';
     encapsulation: ViewEncapsulation.None,
     providers: [],
     selector: 'app-hierarchical-grid-sample',
-    styleUrls: ['hierarchical-grid-right-pinning.component.scss'],
+    styleUrls: ['hierarchical-grid-right-pinning.component.css'],
     templateUrl: 'hierarchical-grid-right-pinning.component.html'
 })
 

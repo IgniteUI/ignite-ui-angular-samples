@@ -9,7 +9,7 @@ const DEBOUNCE_TIME = 300;
 @Component({
     providers: [RemoteFilteringService],
     selector: 'app-grid-remote-filtering-sample',
-    styleUrls: ['./remote-filtering-sample.component.scss'],
+    styleUrls: ['./remote-filtering-sample.component.css'],
     templateUrl: './remote-filtering-sample.component.html'
 })
 export class RemoteFilteringSampleComponent implements OnInit, AfterViewInit, OnDestroy {

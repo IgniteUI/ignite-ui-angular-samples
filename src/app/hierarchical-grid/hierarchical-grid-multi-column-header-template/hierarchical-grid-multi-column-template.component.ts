@@ -4,7 +4,7 @@ import { CUSTOMERS } from '../data';
 
 @Component({
     selector: 'app-hierarchical-grid-multi-column-template',
-    styleUrls: ['./hierarchical-grid-multi-column-template.component.scss'],
+    styleUrls: ['./hierarchical-grid-multi-column-template.component.css'],
     templateUrl: 'hierarchical-grid-multi-column-template.component.html'
 })
 

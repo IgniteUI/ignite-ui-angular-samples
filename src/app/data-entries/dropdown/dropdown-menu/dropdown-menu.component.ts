@@ -6,7 +6,7 @@ import {
 
 @Component({
     selector: 'app-dropdown-menu',
-    styleUrls: ['./dropdown-menu.component.scss'],
+    styleUrls: ['./dropdown-menu.component.css'],
     templateUrl: './dropdown-menu.component.html'
 })
 export class DropdownMenuComponent {

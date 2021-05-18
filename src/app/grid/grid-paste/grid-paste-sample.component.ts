@@ -16,7 +16,7 @@ import { first } from 'rxjs/operators';
         { provide: IgxGridTransaction, useClass: IgxTransactionService }
     ],
     selector: 'app-grid-paste-sample',
-    styleUrls: ['./grid-paste-sample.component.scss'],
+    styleUrls: ['./grid-paste-sample.component.css'],
     templateUrl: './grid-paste-sample.component.html'
 })
 export class GridPasteSampleComponent {

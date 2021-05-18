@@ -4,7 +4,7 @@ import { SINGERS } from '../data';
 
 @Component({
     selector: 'app-hierarchical-grid-pager-sample',
-    styleUrls: ['./hierarchical-grid-pager-sample.component.scss'],
+    styleUrls: ['./hierarchical-grid-pager-sample.component.css'],
     templateUrl: './hierarchical-grid-pager-sample.component.html'
 })
 export class HierarchicalGridPagerSampleComponent implements OnInit, AfterViewInit {

@@ -4,7 +4,7 @@ import { generateEmployeeDetailedFlatData } from '../data/employees-flat-detaile
 
 @Component({
   selector: 'app-tree-grid-column-moving-sample',
-  styleUrls: ['./tree-grid-column-moving-sample.component.scss'],
+  styleUrls: ['./tree-grid-column-moving-sample.component.css'],
   templateUrl: './tree-grid-column-moving-sample.component.html'
 })
 export class TreeGridColumnMovingSampleComponent {

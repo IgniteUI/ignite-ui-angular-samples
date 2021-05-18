@@ -3,7 +3,7 @@ import { athletesData } from '../services/data';
 
 @Component({
     selector: 'app-grid-conditional-cell-style',
-    styleUrls: ['./grid-conditional-cell-style.component.scss'],
+    styleUrls: ['./grid-conditional-cell-style.component.css'],
     templateUrl: './grid-conditional-cell-style.component.html'
 })
 export class GridConditionalCellStyleComponent implements OnInit {

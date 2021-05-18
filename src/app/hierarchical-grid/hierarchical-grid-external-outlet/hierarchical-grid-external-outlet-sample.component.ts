@@ -3,7 +3,7 @@ import { SINGERS } from '../data';
 
 @Component({
     selector: 'app-hierarchical-grid-external-outlet',
-    styleUrls: ['./hierarchical-grid-external-outlet-sample.component.scss'],
+    styleUrls: ['./hierarchical-grid-external-outlet-sample.component.css'],
     templateUrl: 'hierarchical-grid-external-outlet-sample.component.html'
 })
 

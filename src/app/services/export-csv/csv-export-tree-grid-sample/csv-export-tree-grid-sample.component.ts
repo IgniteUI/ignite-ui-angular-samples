@@ -9,7 +9,7 @@ import { FOODS_DATA } from '../../../tree-grid/data/foods';
 
 @Component({
   selector: 'app-csv-export-tree-grid-sample',
-  styleUrls: ['./csv-export-tree-grid-sample.component.scss'],
+  styleUrls: ['./csv-export-tree-grid-sample.component.css'],
   templateUrl: './csv-export-tree-grid-sample.component.html'
 })
 export class TreeGridCsvExportSample1Component implements OnInit {

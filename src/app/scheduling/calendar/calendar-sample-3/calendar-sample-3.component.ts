@@ -4,7 +4,7 @@ import { IViewDateChangeEventArgs } from 'igniteui-angular/lib/calendar/calendar
 
 @Component({
   selector: 'app-calendar',
-  styleUrls: ['./calendar-sample-3.component.scss'],
+  styleUrls: ['./calendar-sample-3.component.css'],
   templateUrl: './calendar-sample-3.component.html'
 })
 

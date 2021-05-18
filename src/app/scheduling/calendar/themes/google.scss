@@ -1,21 +1,21 @@
-$dark-gray: #555;
-$charcoal: #424242;
-$monte-carlo: #83cbc4;
-$green: #159588;
+// $dark-gray: #555;
+// $charcoal: #424242;
+// $monte-carlo: #83cbc4;
+// $green: #159588;
 
-$google-light: igx-calendar-theme(
-    $header-background: $green 
-);
+// $google-light: igx-calendar-theme(
+//     $header-background: $green 
+// );
 
-$google-dark: igx-calendar-theme(
-    $header-background: $dark-gray,
-    $content-background: $charcoal,
-    $date-selected-background: $monte-carlo,
-    $date-current-text-color: $monte-carlo,
-    $picker-arrow-hover-color: $monte-carlo,
-    $picker-text-hover-color: $monte-carlo,
-    $year-current-text-color: $monte-carlo,
-    $year-hover-text-color: $monte-carlo,
-    $month-current-text-color: $monte-carlo,
-    $month-hover-text-color: $monte-carlo
-);
+// $google-dark: igx-calendar-theme(
+//     $header-background: $dark-gray,
+//     $content-background: $charcoal,
+//     $date-selected-background: $monte-carlo,
+//     $date-current-text-color: $monte-carlo,
+//     $picker-arrow-hover-color: $monte-carlo,
+//     $picker-text-hover-color: $monte-carlo,
+//     $year-current-text-color: $monte-carlo,
+//     $year-hover-text-color: $monte-carlo,
+//     $month-current-text-color: $monte-carlo,
+//     $month-hover-text-color: $monte-carlo
+// );

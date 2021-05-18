@@ -3,7 +3,7 @@ import { IgxFilterOptions } from 'igniteui-angular';
 
 @Component({
     selector: 'app-list',
-    styleUrls: ['./list.component.scss'],
+    styleUrls: ['./list.component.css'],
     templateUrl: './list.component.html'
 })
 export class ListComponent implements OnInit {

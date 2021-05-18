@@ -150,7 +150,7 @@ $dark-secondary: igx-color($custom-dark-palette, "secondary");
 
     ::ng-deep{
         /* Importing Bootstrap .scss file. */
-        @import "~bootstrap/scss/bootstrap";
+        @import "../../../../node_modules/bootstrap/scss/bootstrap";
     }
 }
 

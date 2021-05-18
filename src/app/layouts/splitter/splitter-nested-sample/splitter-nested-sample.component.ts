@@ -3,7 +3,7 @@ import { SplitterType } from 'igniteui-angular';
 
 @Component({
     selector: 'app-splitter-nested-sample',
-    styleUrls: ['splitter-nested-sample.component.scss'],
+    styleUrls: ['splitter-nested-sample.component.css'],
     templateUrl: 'splitter-nested-sample.component.html'
 })
 export class SplitterNestedSampleComponent {

@@ -3,7 +3,7 @@ import { localData } from './local-data';
 
 @Component({
     selector: 'app-combo-template',
-    styleUrls: ['./combo-template.component.scss'],
+    styleUrls: ['./combo-template.component.css'],
     templateUrl: './combo-template.component.html'
 })
 export class ComboTemplateComponent implements OnInit {

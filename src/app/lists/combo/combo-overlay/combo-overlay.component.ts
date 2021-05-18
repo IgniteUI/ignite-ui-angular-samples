@@ -4,7 +4,7 @@ import { GlobalPositionStrategy, OverlaySettings, scaleInCenter, scaleOutCenter 
 @Component({
     selector: 'app-combo-overlay',
     templateUrl: 'combo-overlay.component.html',
-    styleUrls: ['combo-overlay.component.scss']
+    styleUrls: ['combo-overlay.component.css']
 })
 export class ComboOverlayComponent {
     public items = [{ name: 'Option 1' }, { name: 'Option 2' }, { name: 'Option 3' },

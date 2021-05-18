@@ -5,7 +5,7 @@ import { generateEmployeeFlatData } from '../data/employees-flat';
 
 @Component({
     selector: 'app-tree-grid-row-reorder',
-    styleUrls: ['tree-grid-row-reorder.component.scss'],
+    styleUrls: ['tree-grid-row-reorder.component.css'],
     templateUrl: 'tree-grid-row-reorder.component.html'
 })
 export class TreeGridRowReorderComponent {

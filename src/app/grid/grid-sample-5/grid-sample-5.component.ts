@@ -5,7 +5,7 @@ import { RemoteService } from './remote.service';
 @Component({
     providers: [RemoteService],
     selector: 'app-grid-remote-virtualization-sample',
-    styleUrls: ['grid-sample-5.component.scss'],
+    styleUrls: ['grid-sample-5.component.css'],
     templateUrl: 'grid-sample-5.component.html'
 })
 

@@ -3,7 +3,7 @@ import { DATA } from '../../data/customers';
 
 @Component({
     selector: 'app-grid-composite-data',
-    styleUrls: ['./grid-composite-data.component.scss'],
+    styleUrls: ['./grid-composite-data.component.css'],
     templateUrl: './grid-composite-data.component.html'
 })
 export class GridCompositeDataComponent implements OnInit {

@@ -3,7 +3,7 @@ import { Card } from '../card.blueprint';
 
 @Component({
     selector: 'app-card-sample-2',
-    styleUrls: ['./card-sample-2.component.scss'],
+    styleUrls: ['./card-sample-2.component.css'],
     templateUrl: './card-sample-2.component.html'
 })
 export class CardSample2Component {

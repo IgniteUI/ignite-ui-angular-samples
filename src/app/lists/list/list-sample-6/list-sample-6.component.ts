@@ -3,7 +3,7 @@ import { IgxListComponent } from 'igniteui-angular';
 
 @Component({
   selector: 'app-list-sample-6',
-  styleUrls: ['./list-sample-6.component.scss'],
+  styleUrls: ['./list-sample-6.component.css'],
   templateUrl: './list-sample-6.component.html'
 })
 export class ListSample6Component {

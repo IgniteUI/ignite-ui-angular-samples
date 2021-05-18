@@ -4,7 +4,7 @@ import { ConnectedPositioningStrategy, IgxOverlayService } from 'igniteui-angula
 @Component({
     selector: 'app-overlay-sample',
     templateUrl: `overlay-main-sample-3.component.html`,
-    styleUrls: ['overlay-main-sample-3.component.scss']
+    styleUrls: ['overlay-main-sample-3.component.css']
 })
 export class OverlaySampleMain3Component implements OnDestroy {
     @ViewChild('card', { static: true, read: ElementRef })

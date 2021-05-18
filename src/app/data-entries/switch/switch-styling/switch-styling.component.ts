@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-switch-styling',
-  styleUrls: ['./switch-styling.component.scss'],
+  styleUrls: ['./switch-styling.component.css'],
   templateUrl: './switch-styling.component.html'
 })
 export class SwitchStylingComponent {

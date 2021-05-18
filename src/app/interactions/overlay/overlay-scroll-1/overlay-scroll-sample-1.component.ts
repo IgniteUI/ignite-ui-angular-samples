@@ -14,7 +14,7 @@ import {
 // tslint:disable:object-literal-sort-keys
 @Component({
     selector: 'app-overlay-sample',
-    styleUrls: ['./overlay-scroll-sample-1.component.scss'],
+    styleUrls: ['./overlay-scroll-sample-1.component.css'],
     templateUrl: './overlay-scroll-sample-1.component.html',
     providers: [IgxOverlayService]
 })

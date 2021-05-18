@@ -4,7 +4,7 @@ import { IgxTextHighlightDirective } from 'igniteui-angular';
 
 @Component({
     selector: 'app-text-highlight-1',
-    styleUrls: ['./text-highlight-sample-1.component.scss'],
+    styleUrls: ['./text-highlight-sample-1.component.css'],
     templateUrl: './text-highlight-sample-1.component.html'
 })
 export class TextHighlightSample1Component {

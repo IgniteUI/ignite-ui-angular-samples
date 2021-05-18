@@ -42,7 +42,7 @@ class MyChildSummary {
 
 @Component({
     selector: 'app-hierarchical-grid-summary',
-    styleUrls: ['./hierarchical-grid-summary.component.scss'],
+    styleUrls: ['./hierarchical-grid-summary.component.css'],
     templateUrl: 'hierarchical-grid-summary.component.html'
 })
 

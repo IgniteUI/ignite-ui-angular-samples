@@ -8,7 +8,7 @@ import { FOODS_DATA } from '../../../tree-grid/data/foods';
 
 @Component({
   selector: 'app-excel-export-tree-grid-sample',
-  styleUrls: ['./excel-export-tree-grid-sample.component.scss'],
+  styleUrls: ['./excel-export-tree-grid-sample.component.css'],
   templateUrl: './excel-export-tree-grid-sample.component.html'
 })
 export class TreeGridExcelExportSample1Component implements OnInit {

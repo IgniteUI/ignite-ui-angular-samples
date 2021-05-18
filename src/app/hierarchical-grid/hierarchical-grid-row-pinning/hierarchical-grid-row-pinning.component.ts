@@ -9,7 +9,7 @@ import { SINGERS } from '../data';
 
 @Component({
     selector: 'app-hierarchical-grid-row-pinning',
-    styleUrls: ['./hierarchical-grid-row-pinning.component.scss'],
+    styleUrls: ['./hierarchical-grid-row-pinning.component.css'],
     templateUrl: 'hierarchical-grid-row-pinning.component.html'
 })
 

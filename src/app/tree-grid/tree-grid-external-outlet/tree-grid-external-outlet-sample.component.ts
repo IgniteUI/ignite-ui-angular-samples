@@ -3,7 +3,7 @@ import { FOODS_DATA } from '../data/foods';
 
 @Component({
     selector: 'app-tree-grid-external-outlet',
-    styleUrls: ['./tree-grid-external-outlet-sample.component.scss'],
+    styleUrls: ['./tree-grid-external-outlet-sample.component.css'],
     templateUrl: 'tree-grid-external-outlet-sample.component.html'
 })
 

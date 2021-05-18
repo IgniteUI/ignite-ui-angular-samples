@@ -41,7 +41,7 @@ class SumSummary {
 
 @Component({
     selector: 'app-grid-groupby-summary-sample',
-    styleUrls: ['./grid-groupby-summary-sample.component.scss'],
+    styleUrls: ['./grid-groupby-summary-sample.component.css'],
     templateUrl: './grid-groupby-summary-sample.component.html'
 })
 export class GridGroupBySummarySampleComponent {

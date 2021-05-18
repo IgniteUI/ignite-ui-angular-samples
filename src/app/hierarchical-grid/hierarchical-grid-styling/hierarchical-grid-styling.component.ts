@@ -4,7 +4,7 @@ import { SINGERS } from '../data';
 
 @Component({
     selector: 'app-hierarchical-grid-styling',
-    styleUrls: ['./hierarchical-grid-styling.component.scss'],
+    styleUrls: ['./hierarchical-grid-styling.component.css'],
     templateUrl: 'hierarchical-grid-styling.component.html'
 })
 

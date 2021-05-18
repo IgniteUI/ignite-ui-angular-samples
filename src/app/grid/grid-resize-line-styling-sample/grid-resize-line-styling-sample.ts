@@ -3,7 +3,7 @@ import { athletesData } from '../services/data';
 
 @Component({
     selector: 'app-grid-resize-line-styling-sample',
-    styleUrls: ['./grid-resize-line-styling-sample.scss'],
+    styleUrls: ['./grid-resize-line-styling-sample.css'],
     templateUrl: './grid-resize-line-styling-sample.html'
 })
 

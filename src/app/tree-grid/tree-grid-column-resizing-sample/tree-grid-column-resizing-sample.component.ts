@@ -4,7 +4,7 @@ import { generateEmployeeDetailedFlatData } from '../data/employees-flat-detaile
 
 @Component({
   selector: 'app-tree-grid-column-resizing-sample',
-  styleUrls: ['./tree-grid-column-resizing-sample.component.scss'],
+  styleUrls: ['./tree-grid-column-resizing-sample.component.css'],
   templateUrl: './tree-grid-column-resizing-sample.component.html'
 })
 export class TreeGridColumnResizingSampleComponent {

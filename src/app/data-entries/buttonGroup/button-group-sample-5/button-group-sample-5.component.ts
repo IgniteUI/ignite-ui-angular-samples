@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
     selector: 'app-button-group-sample-5',
-    styleUrls: ['./button-group-sample-5.component.scss'],
+    styleUrls: ['./button-group-sample-5.component.css'],
     templateUrl: './button-group-sample-5.component.html'
 })
 export class ButtonGroupSample5Component implements OnInit {

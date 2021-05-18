@@ -3,7 +3,7 @@ import { ChangeDetectorRef, Component, Input, Renderer2 } from '@angular/core';
 @Component({
     selector: 'app-email-sample',
     templateUrl: './email-sample.component.html',
-    styleUrls: ['./email-sample.component.scss']
+    styleUrls: ['./email-sample.component.css']
 })
 
 export class EmailSampleComponent {

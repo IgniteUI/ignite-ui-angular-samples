@@ -6,7 +6,7 @@ import { DATA } from '../../data/nwindData';
 @Component({
     selector: 'app-grid-editing-event',
     templateUrl: 'grid-editing-events.component.html',
-    styleUrls: ['grid-editing-events.component.scss']
+    styleUrls: ['grid-editing-events.component.css']
 })
 export class GridEditingEventsComponent implements OnInit {
     @ViewChild(IgxToastComponent, { read: IgxToastComponent, static: true })

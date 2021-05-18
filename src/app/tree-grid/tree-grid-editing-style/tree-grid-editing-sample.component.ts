@@ -4,7 +4,7 @@ import { generateEmployeeFlatData } from '../data/employees-flat';
 
 @Component({
     selector: 'app-tree-grid-editing-sample',
-    styleUrls: ['./tree-grid-editing-sample.component.scss'],
+    styleUrls: ['./tree-grid-editing-sample.component.css'],
     templateUrl: './tree-grid-editing-sample.component.html'
 })
 export class TreeGridEditingStyleComponent implements OnInit {

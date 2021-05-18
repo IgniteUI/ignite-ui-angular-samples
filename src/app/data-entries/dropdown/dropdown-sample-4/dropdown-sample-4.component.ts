@@ -7,7 +7,7 @@ import {
 @Component({
     // tslint:disable-next-line:component-selector
     selector: 'app-dropdown-sample-4',
-    styleUrls: ['./dropdown-sample-4.component.scss'],
+    styleUrls: ['./dropdown-sample-4.component.css'],
     templateUrl: './dropdown-sample-4.component.html'
 })
 export class DropDownSample4Component {

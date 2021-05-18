@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-contact-list',
-  styleUrls: ['./list-sample-3.component.scss'],
+  styleUrls: ['./list-sample-3.component.css'],
   templateUrl: './list-sample-3.component.html'
 })
 export class ListSample3Component implements OnInit {

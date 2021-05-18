@@ -4,7 +4,7 @@ import { FOODS_DATA } from '../data/foods';
 
 @Component({
     selector: 'app-grid-conditional-cell-style-2',
-    styleUrls: ['./tree-grid-conditional-cell-style-2.component.scss'],
+    styleUrls: ['./tree-grid-conditional-cell-style-2.component.css'],
     templateUrl: './tree-grid-conditional-cell-style-2.component.html'
 })
 export class TreeGridConditionalCellStyle2Component implements OnInit {

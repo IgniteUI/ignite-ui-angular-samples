@@ -3,7 +3,7 @@ import { localData } from './local-data';
 
 @Component({
     selector: 'app-combo-main',
-    styleUrls: ['./combo-main.component.scss'],
+    styleUrls: ['./combo-main.component.css'],
     templateUrl: './combo-main.component.html'
 })
 

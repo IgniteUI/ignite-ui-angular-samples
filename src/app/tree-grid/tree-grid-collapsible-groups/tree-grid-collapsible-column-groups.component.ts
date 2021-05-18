@@ -4,7 +4,7 @@ import { generateEmployeeDetailedFlatData } from '../data/employees-flat-detaile
 
 @Component({
   selector: 'app-tree-grid-multi-column-headers-sample',
-  styleUrls: ['./tree-grid-collapsible-column-groups.component.scss'],
+  styleUrls: ['./tree-grid-collapsible-column-groups.component.css'],
   templateUrl: './tree-grid-collapsible-column-groups.component.html'
 })
 export class TreeGridMultiCollapsibleColumnGroupsComponent implements OnInit {

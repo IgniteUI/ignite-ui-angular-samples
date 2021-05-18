@@ -35,7 +35,7 @@ class DiscontinuedSummary {
 }
 @Component({
   selector: 'app-grid-all-data-summary',
-  styleUrls: ['./grid-allData-summary.component.scss'],
+  styleUrls: ['./grid-allData-summary.component.css'],
   templateUrl: './grid-allData-summary.component.html'
 })
 export class GridAllDataSummaryComponent implements OnInit {

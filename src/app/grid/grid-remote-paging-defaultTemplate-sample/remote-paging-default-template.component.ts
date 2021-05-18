@@ -7,7 +7,7 @@ import { RemotePagingService } from '../services/remotePagingService';
     encapsulation: ViewEncapsulation.None,
     providers: [RemotePagingService],
     selector: 'app-remote-paging-default-template',
-    styleUrls: ['./remote-paging-default-template.component.scss'],
+    styleUrls: ['./remote-paging-default-template.component.css'],
     templateUrl: './remote-paging-default-template.component.html'
 })
 export class RemotePagingDefaultTemplateComponent implements OnInit, AfterViewInit, OnDestroy {

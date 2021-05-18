@@ -4,7 +4,7 @@ import { SINGERS } from '../data';
 @Component({
     selector: 'app-hgrid-editing-lifecycle',
     templateUrl: 'hgrid-editing-lifecycle.component.html',
-    styleUrls: ['hgrid-editing-lifecycle.component.scss']
+    styleUrls: ['hgrid-editing-lifecycle.component.css']
 })
 export class HGridEditingLifecycleComponent {
     @ViewChild('logger')

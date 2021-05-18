@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
     selector: 'app-buttons-display-density',
-    styleUrls: ['./buttons-display-density.component.scss'],
+    styleUrls: ['./buttons-display-density.component.css'],
     templateUrl: './buttons-display-density.component.html'
 })
 export class ButtonsDisplayDensityComponent implements OnInit {

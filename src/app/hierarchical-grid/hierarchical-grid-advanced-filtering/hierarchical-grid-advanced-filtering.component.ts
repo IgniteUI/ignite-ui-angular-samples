@@ -3,7 +3,7 @@ import { SINGERS } from '../data';
 
 @Component({
     selector: 'app-hierarchical-grid-advanced-filtering',
-    styleUrls: ['./hierarchical-grid-advanced-filtering.component.scss'],
+    styleUrls: ['./hierarchical-grid-advanced-filtering.component.css'],
     templateUrl: 'hierarchical-grid-advanced-filtering.component.html'
 })
 

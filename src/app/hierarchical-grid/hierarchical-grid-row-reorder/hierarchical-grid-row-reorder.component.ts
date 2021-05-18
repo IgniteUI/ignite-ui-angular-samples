@@ -9,7 +9,7 @@ import { createData, IDrive } from '../../data/files.data';
 
 @Component({
     selector: 'app-hierarchical-grid-row-reorder',
-    styleUrls: ['./hierarchical-grid-row-reorder.component.scss'],
+    styleUrls: ['./hierarchical-grid-row-reorder.component.css'],
     templateUrl: 'hierarchical-grid-row-reorder.component.html'
 })
 export class HGridRowReorderComponent {

@@ -3,7 +3,7 @@ import { DATA } from '../../data/customers';
 
 @Component({
     selector: 'app-grid-selection-template-excel',
-    styleUrls: ['./grid-sample-selection-template-excel.component.scss'],
+    styleUrls: ['./grid-sample-selection-template-excel.component.css'],
     templateUrl: 'grid-sample-selection-template-excel.component.html'
 })
 

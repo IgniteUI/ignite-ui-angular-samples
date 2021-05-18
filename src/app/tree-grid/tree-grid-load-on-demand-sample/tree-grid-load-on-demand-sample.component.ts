@@ -4,7 +4,7 @@ import { TreeGridLoadOnDemandService } from './remoteService';
 
 @Component({
     selector: 'app-tree-grid-load-on-demand-sample',
-    styleUrls: ['./tree-grid-load-on-demand-sample.component.scss'],
+    styleUrls: ['./tree-grid-load-on-demand-sample.component.css'],
     templateUrl: './tree-grid-load-on-demand-sample.component.html'
 })
 export class TreeGridLoadOnDemandSampleComponent implements OnInit {

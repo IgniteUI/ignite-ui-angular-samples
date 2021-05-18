@@ -6,7 +6,7 @@ import { RemotePagingService } from '../services/remotePagingService';
     encapsulation: ViewEncapsulation.None,
     providers: [RemotePagingService],
     selector: 'app-custom-remote-paging-grid-sample',
-    styleUrls: ['./custom-remote-paging-sample.component.scss'],
+    styleUrls: ['./custom-remote-paging-sample.component.css'],
     templateUrl: './custom-remote-paging-sample.component.html'
 })
 export class CustomRemotePagingGridSampleComponent implements OnInit, AfterViewInit, OnDestroy {

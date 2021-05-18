@@ -4,7 +4,7 @@ import { athletesData } from '../services/data';
 
 @Component({
     selector: 'app-custom-grid-paging-style-sample',
-    styleUrls: ['custom-grid-paging-style.component.scss'],
+    styleUrls: ['custom-grid-paging-style.component.css'],
     templateUrl: 'custom-grid-paging-style.component.html'
 })
 

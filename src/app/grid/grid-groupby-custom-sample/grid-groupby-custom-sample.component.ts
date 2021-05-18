@@ -11,7 +11,7 @@ import { DatePipe } from '@angular/common';
 @Component({
     encapsulation: ViewEncapsulation.None,
     selector: 'app-grid-groupby-custom-sample',
-    styleUrls: ['./grid-groupby-custom-sample.component.scss'],
+    styleUrls: ['./grid-groupby-custom-sample.component.css'],
     templateUrl: './grid-groupby-custom-sample.component.html'
 })
 export class GridGroupByCustomSampleComponent {

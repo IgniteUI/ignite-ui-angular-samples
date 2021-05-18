@@ -5,7 +5,7 @@ import { athletesData } from '../services/data';
 @Component({
     encapsulation: ViewEncapsulation.None,
     selector: 'app-grid-sample',
-    styleUrls: ['./grid-paging-sample.component.scss'],
+    styleUrls: ['./grid-paging-sample.component.css'],
     templateUrl: 'grid-paging-sample.component.html'
 })
 

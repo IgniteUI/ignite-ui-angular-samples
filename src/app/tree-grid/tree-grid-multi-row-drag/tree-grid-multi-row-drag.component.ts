@@ -4,7 +4,7 @@ import { FULL_EMPLOYEE_DATA } from '../data/employees';
 
 @Component({
     selector: 'app-tree-grid-multi-row-drag',
-    styleUrls: ['tree-grid-multi-row-drag.component.scss'],
+    styleUrls: ['tree-grid-multi-row-drag.component.css'],
     templateUrl: 'tree-grid-multi-row-drag.component.html'
 })
 export class TreeGridMultiRowDragComponent {

@@ -4,7 +4,7 @@ import { FOODS_DATA } from '../data/foods';
 
 @Component({
     selector: 'app-tree-grid-formatted-filtering-strategy',
-    styleUrls: ['./tree-grid-formatted-filtering-strategy.component.scss'],
+    styleUrls: ['./tree-grid-formatted-filtering-strategy.component.css'],
     templateUrl: 'tree-grid-formatted-filtering-strategy.component.html'
 })
 

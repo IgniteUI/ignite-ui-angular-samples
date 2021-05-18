@@ -3,7 +3,7 @@ import { generateEmployeeDetailedFlatData } from '../data/employees-flat-detaile
 
 @Component({
   selector: 'app-tree-grid-column-hiding-toolbar-style',
-  styleUrls: ['./tree-grid-column-hiding-toolbar-style.component.scss'],
+  styleUrls: ['./tree-grid-column-hiding-toolbar-style.component.css'],
   templateUrl: './tree-grid-column-hiding-toolbar-style.component.html'
 })
 export class TreeGridColumnHidingToolbarStyleComponent implements OnInit {

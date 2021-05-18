@@ -4,7 +4,7 @@ import { DATA } from '../../data/customers';
 
 @Component({
     selector: 'app-grid-conditional-row-selectors',
-    styleUrls: ['./grid-conditional-row-selectors-sample.component.scss'],
+    styleUrls: ['./grid-conditional-row-selectors-sample.component.css'],
     templateUrl: 'grid-conditional-row-selectors-sample.component.html'
 })
 

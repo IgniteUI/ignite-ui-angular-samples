@@ -4,7 +4,7 @@ import { CUSTOMERS } from '../data';
 
 @Component({
     selector: 'app-hierarchical-grid-pinning',
-    styleUrls: ['./hierarchical-grid-pinning.component.scss'],
+    styleUrls: ['./hierarchical-grid-pinning.component.css'],
     templateUrl: 'hierarchical-grid-pinning.component.html'
 })
 

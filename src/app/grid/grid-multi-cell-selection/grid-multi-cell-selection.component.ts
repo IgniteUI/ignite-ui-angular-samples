@@ -5,7 +5,7 @@ import { DATA } from '../../data/nwindData';
 @Component({
     encapsulation: ViewEncapsulation.None,
     selector: 'app-grid-multi-cell-selection-sample',
-    styleUrls: ['./grid-multi-cell-selection.component.scss'],
+    styleUrls: ['./grid-multi-cell-selection.component.css'],
     templateUrl: './grid-multi-cell-selection.component.html'
 })
 export class GridMultiCellSelectionComponent {

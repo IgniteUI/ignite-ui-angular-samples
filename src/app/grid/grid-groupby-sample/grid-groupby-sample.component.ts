@@ -10,7 +10,7 @@ import { INVOICE_DATA } from '../../data/invoiceData';
 @Component({
     encapsulation: ViewEncapsulation.None,
     selector: 'app-grid-groupby-sample',
-    styleUrls: ['./grid-groupby-sample.component.scss'],
+    styleUrls: ['./grid-groupby-sample.component.css'],
     templateUrl: './grid-groupby-sample.component.html'
 })
 export class GridGroupBySampleComponent {

@@ -2,7 +2,7 @@ import { Component, HostBinding, OnInit, ViewChild } from '@angular/core';
 import { IgxDialogComponent, IgxOverlayOutletDirective } from 'igniteui-angular';
 @Component({
   selector: 'app-bootstrap-sample',
-  styleUrls: ['./bootstrap-sample.component.scss'],
+  styleUrls: ['./bootstrap-sample.component.css'],
   templateUrl: './bootstrap-sample.component.html'
 })
 

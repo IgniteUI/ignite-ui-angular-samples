@@ -7,7 +7,7 @@ import {
 
 @Component({
     selector: 'app-select-sample-4',
-    styleUrls: ['select-sample-4.component.scss'],
+    styleUrls: ['select-sample-4.component.css'],
     templateUrl: 'select-sample-4.component.html'
 })
 export class SelectSample4Component implements OnInit {

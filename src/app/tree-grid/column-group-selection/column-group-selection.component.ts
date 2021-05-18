@@ -5,7 +5,7 @@ import { generateEmployeeDetailedFlatData } from '../data/employees-flat-detaile
 @Component({
   selector: 'app-column-group-selection',
   templateUrl: './column-group-selection.component.html',
-  styleUrls: ['./column-group-selection.component.scss']
+  styleUrls: ['./column-group-selection.component.css']
 })
 export class TreeGridColumnGroupSelectionComponent implements OnInit {
 

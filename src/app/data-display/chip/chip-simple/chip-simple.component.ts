@@ -3,7 +3,7 @@ import { IBaseChipEventArgs } from 'igniteui-angular';
 
 @Component({
     selector: 'app-chip-simple',
-    styleUrls: ['./chip-simple.component.scss'],
+    styleUrls: ['./chip-simple.component.css'],
     templateUrl: './chip-simple.component.html'
 })
 

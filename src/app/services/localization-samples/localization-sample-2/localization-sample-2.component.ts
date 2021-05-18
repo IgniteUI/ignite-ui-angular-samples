@@ -4,7 +4,7 @@ import { DATA } from '../../data/nwindData';
 
 @Component({
     selector: 'app-localization-sample-2',
-    styleUrls: ['./localization-sample-2.component.scss'],
+    styleUrls: ['./localization-sample-2.component.css'],
     templateUrl: 'localization-sample-2.component.html'
 })
 

@@ -3,7 +3,7 @@ import { IgxIconModule, SortingDirection } from 'igniteui-angular';
 
 @Component({
   selector: 'app-hgrid-contextmenu',
-  styleUrls: ['./hgrid-contextmenu.component.scss'],
+  styleUrls: ['./hgrid-contextmenu.component.css'],
   templateUrl: './hgrid-contextmenu.component.html'
 })
 export class HGridContextmenuComponent implements OnInit {

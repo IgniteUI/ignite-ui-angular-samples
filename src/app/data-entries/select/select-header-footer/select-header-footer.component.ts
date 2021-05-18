@@ -1,7 +1,7 @@
 import { ChangeDetectorRef, Component, ElementRef, OnInit } from '@angular/core';
 @Component({
     selector: 'app-select-header-footer',
-    styleUrls: ['select-header-footer.component.scss'],
+    styleUrls: ['select-header-footer.component.css'],
     templateUrl: 'select-header-footer.component.html'
 })
 export class SelectHeaderFooterComponent implements OnInit {

@@ -4,7 +4,7 @@ import { SINGERS } from '../data';
 
 @Component({
   selector: 'app-hierarchical-grid-column-hiding-toolbar-style',
-  styleUrls: ['./hierarchical-grid-column-hiding-toolbar-style.component.scss'],
+  styleUrls: ['./hierarchical-grid-column-hiding-toolbar-style.component.css'],
   templateUrl: './hierarchical-grid-column-hiding-toolbar-style.component.html'
 })
 export class HierarchicalGridColumnHidingToolbarStyleComponent implements OnInit {

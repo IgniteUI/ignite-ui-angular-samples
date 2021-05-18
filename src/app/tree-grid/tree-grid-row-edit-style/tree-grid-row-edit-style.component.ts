@@ -3,7 +3,7 @@ import { generateEmployeeFlatData, IEmployee } from '../data/employees-flat';
 
 @Component({
     selector: 'app-tree-grid-row-edit-style',
-    styleUrls: ['tree-grid-row-edit-style.component.scss'],
+    styleUrls: ['tree-grid-row-edit-style.component.css'],
     templateUrl: 'tree-grid-row-edit-style.component.html'
 })
 export class TreeGridRowEditStyleComponent implements OnInit {

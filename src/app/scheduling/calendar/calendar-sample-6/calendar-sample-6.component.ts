@@ -3,7 +3,7 @@ import { DateRangeType, IgxCalendarComponent } from 'igniteui-angular';
 
 @Component({
   selector: 'app-calendar',
-  styleUrls: ['./calendar-sample-6.component.scss'],
+  styleUrls: ['./calendar-sample-6.component.css'],
   templateUrl: './calendar-sample-6.component.html'
 })
 export class CalendarSample6Component implements OnInit{

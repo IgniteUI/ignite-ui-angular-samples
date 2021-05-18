@@ -4,7 +4,7 @@ import { femaleFNames, lastName, maleFNames, middleNames } from './names';
 
 @Component({
     selector: 'app-igx-for-list',
-    styleUrls: ['./igxFor.component.scss'],
+    styleUrls: ['./igxFor.component.css'],
     templateUrl: './igxFor.component.html'
 })
 export class IgxForComponent implements OnInit {

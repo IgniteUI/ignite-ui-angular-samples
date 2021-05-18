@@ -146,7 +146,7 @@ const summaryCombinations: Item[] = [
 @Component({
     selector: 'grid-keyboardnav',
     templateUrl: './hgrid-keyboard-guide.component.html',
-    styleUrls: ['hgrid-keyboard-guide.component.scss'],
+    styleUrls: ['hgrid-keyboard-guide.component.css'],
     animations: [
         trigger('toggle', [
             state('selected', style({

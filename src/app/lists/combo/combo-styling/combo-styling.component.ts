@@ -4,7 +4,7 @@ import { getHeroWeaponsData, IHeroWeapon } from '../../../data/heroData';
 
 @Component({
     selector: 'app-combo',
-    styleUrls: ['./combo-styling.component.scss'],
+    styleUrls: ['./combo-styling.component.css'],
     templateUrl: './combo-styling.component.html'
 })
 export class ComboStylingComponent implements OnInit {

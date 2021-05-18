@@ -3,7 +3,7 @@ import { FOODS_DATA } from '../data/foods';
 
 @Component({
     selector: 'app-tree-grid-conditional-cell-style-sample',
-    styleUrls: ['./tree-grid-conditional-cell-style-sample.component.scss'],
+    styleUrls: ['./tree-grid-conditional-cell-style-sample.component.css'],
     templateUrl: './tree-grid-conditional-cell-style-sample.component.html'
 })
 

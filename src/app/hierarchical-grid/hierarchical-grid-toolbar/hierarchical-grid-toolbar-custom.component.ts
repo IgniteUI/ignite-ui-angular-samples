@@ -3,7 +3,7 @@ import { SINGERS } from '../data';
 
 @Component({
     selector: 'app-hierarchical-grid-toolbar-custom',
-    styleUrls: ['./hierarchical-grid-toolbar-custom.component.scss'],
+    styleUrls: ['./hierarchical-grid-toolbar-custom.component.css'],
     templateUrl: 'hierarchical-grid-toolbar-custom.component.html'
 })
 

@@ -4,7 +4,7 @@ import { DATA } from '../../data/customers';
 
 @Component({
     selector: 'app-grid-resizing-sample',
-    styleUrls: ['./grid-resizing-sample.component.scss'],
+    styleUrls: ['./grid-resizing-sample.component.css'],
     templateUrl: 'grid-resizing-sample.component.html'
 })
 

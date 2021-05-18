@@ -4,7 +4,7 @@ import { localData } from './local-data';
 
 @Component({
     selector: 'app-combo-single-selection',
-    styleUrls: ['./combo-single-selection.component.scss'],
+    styleUrls: ['./combo-single-selection.component.css'],
     templateUrl: './combo-single-selection.component.html'
 })
 

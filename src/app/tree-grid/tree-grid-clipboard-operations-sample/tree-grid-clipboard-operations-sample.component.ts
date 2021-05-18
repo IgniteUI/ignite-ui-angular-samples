@@ -3,7 +3,7 @@ import { EMPLOYEE_DATA } from './data';
 
 @Component({
     selector: 'app-tree-grid-clipboard-operations-sample',
-    styleUrls: ['tree-grid-clipboard-operations-sample.component.scss'],
+    styleUrls: ['tree-grid-clipboard-operations-sample.component.css'],
     templateUrl: './tree-grid-clipboard-operations-sample.component.html'
 })
 export class TreeGridClipboardSampleComponent implements OnInit {

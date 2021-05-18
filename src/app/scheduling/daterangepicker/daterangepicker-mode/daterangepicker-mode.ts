@@ -3,7 +3,7 @@ import { DateRange } from 'igniteui-angular';
 
 @Component({
     selector: 'app-mode-rangedatepicker',
-    styleUrls: ['./daterangepicker-mode.scss'],
+    styleUrls: ['./daterangepicker-mode.css'],
     templateUrl: './daterangepicker-mode.html'
 })
 export class DateRangePickerModeComponent {

@@ -21,7 +21,7 @@ class CustomNumberSummary {
   }
 @Component({
   selector: 'app-grid-displaydensity-sample',
-  styleUrls: ['./grid-displaydensity-sample.component.scss'],
+  styleUrls: ['./grid-displaydensity-sample.component.css'],
   templateUrl: './grid-displaydensity-sample.component.html'
 })
 export class GridDisplayDensitySampleComponent implements OnInit {

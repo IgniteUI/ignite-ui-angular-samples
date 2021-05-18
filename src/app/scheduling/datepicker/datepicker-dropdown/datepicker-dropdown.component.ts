@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'app-datepicker-dropdown',
-    styleUrls: ['./datepicker-dropdown.component.scss'],
+    styleUrls: ['./datepicker-dropdown.component.css'],
     templateUrl: './datepicker-dropdown.component.html'
 
 })

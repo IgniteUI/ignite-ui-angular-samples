@@ -148,7 +148,7 @@ const summaryCombinations: Item[] = [
 @Component({
     selector: 'grid-keyboardnav',
     templateUrl: './grid-keyboardnav-sample.component.html',
-    styleUrls: ['grid-keyboardnav-sample.component.scss'],
+    styleUrls: ['grid-keyboardnav-sample.component.css'],
     animations: [
         trigger('toggle', [
             state('selected', style({

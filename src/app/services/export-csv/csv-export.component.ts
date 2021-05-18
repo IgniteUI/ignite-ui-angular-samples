@@ -5,7 +5,7 @@ import { CsvFileTypes, IgxCsvExporterOptions, IgxCsvExporterService } from 'igni
 
 @Component({
   selector: 'app-csv-export',
-  styleUrls: ['./csv-export.component.scss'],
+  styleUrls: ['./csv-export.component.css'],
   templateUrl: './csv-export.component.html'
 })
 export class CsvExportComponent {

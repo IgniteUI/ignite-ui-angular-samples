@@ -19,7 +19,7 @@ import { MyDynamicCardComponent } from '../overlay-dynamic-card/overlay-dynamic-
 // tslint:disable:object-literal-sort-keys
 @Component({
     selector: 'app-overlay-sample',
-    styleUrls: ['./overlay-preset-settings-sample.component.scss'],
+    styleUrls: ['./overlay-preset-settings-sample.component.css'],
     templateUrl: './overlay-preset-settings-sample.component.html',
     providers: [IgxOverlayService]
 })

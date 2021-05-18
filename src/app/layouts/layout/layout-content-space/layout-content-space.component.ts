@@ -4,7 +4,7 @@ import { ButtonGroupAlignment } from 'igniteui-angular';
 @Component({
   encapsulation: ViewEncapsulation.None,
   selector: 'app-layout-content-space',
-  styleUrls: ['./layout-content-space.component.scss'],
+  styleUrls: ['./layout-content-space.component.css'],
   templateUrl: './layout-content-space.component.html'
 })
 

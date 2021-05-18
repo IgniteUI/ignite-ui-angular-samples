@@ -4,7 +4,7 @@ import { FOODS_DATA } from '../data/foods';
 @Component({
     selector: 'app-tree-grid-export-visualization',
     templateUrl: './tree-grid-export-visualization.component.html',
-    styleUrls: ['./tree-grid-export-visualization.component.scss']
+    styleUrls: ['./tree-grid-export-visualization.component.css']
 })
 export class TreeGridExportVisualizationComponent {
     public localData = [];

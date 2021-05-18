@@ -4,7 +4,7 @@ import { DATA } from '../../data/nwindData';
 
 @Component({
     selector: 'app-grid-advanced-filtering-sample',
-    styleUrls: ['./grid-advanced-filtering-sample.component.scss'],
+    styleUrls: ['./grid-advanced-filtering-sample.component.css'],
     templateUrl: 'grid-advanced-filtering-sample.component.html'
 })
 export class GridAdvancedFilteringSampleComponent implements OnInit {

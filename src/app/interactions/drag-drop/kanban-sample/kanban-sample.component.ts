@@ -16,7 +16,7 @@ interface IListItem {
 @Component({
     selector: 'app-kanban-sample',
     templateUrl: './kanban-sample.component.html',
-    styleUrls: ['./kanban-sample.component.scss']
+    styleUrls: ['./kanban-sample.component.css']
 })
 export class KanbanSampleComponent implements OnInit {
     @ViewChild('toDo')

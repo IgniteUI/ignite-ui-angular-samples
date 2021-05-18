@@ -3,7 +3,7 @@ import { DatePart } from 'igniteui-angular';
 
 @Component({
     selector: 'app-datetime-advanced',
-    styleUrls: ['./datetime-advanced.scss'],
+    styleUrls: ['./datetime-advanced.css'],
     templateUrl: './datetime-advanced.html'
 })
 

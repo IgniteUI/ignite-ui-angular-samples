@@ -2,7 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 
 @Component({
     selector: 'app-timepicker',
-    styleUrls: ['./timepicker-sample-4.component.scss'],
+    styleUrls: ['./timepicker-sample-4.component.css'],
     templateUrl: './timepicker-sample-4.component.html'
 })
 export class TimePickerSample4Component {

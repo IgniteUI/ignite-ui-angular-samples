@@ -4,7 +4,7 @@ import { FOODS_DATA } from '../data/foods';
 
 @Component({
     selector: 'app-tree-grid-pager-sample',
-    styleUrls: ['./tree-grid-pager-sample.component.scss'],
+    styleUrls: ['./tree-grid-pager-sample.component.css'],
     templateUrl: './tree-grid-pager-sample.component.html'
 })
 export class TreeGridPagerSampleComponent implements OnInit, AfterViewInit {

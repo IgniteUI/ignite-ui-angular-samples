@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
     // tslint:disable-next-line:component-selector
     selector: 'app-dropdown-sample-5',
-    styleUrls: ['./dropdown-sample-5.component.scss'],
+    styleUrls: ['./dropdown-sample-5.component.css'],
     templateUrl: './dropdown-sample-5.component.html'
 })
 export class DropDownSample5Component {

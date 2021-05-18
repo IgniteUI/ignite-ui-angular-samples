@@ -8,7 +8,7 @@ import { RemotePagingService } from '../services/remotePagingService';
     encapsulation: ViewEncapsulation.None,
     providers: [RemotePagingService],
     selector: 'app-remote-paging-batch-editing',
-    styleUrls: ['./batch-editing-remote-paging.component.scss'],
+    styleUrls: ['./batch-editing-remote-paging.component.css'],
     templateUrl: './batch-editing-remote-paging.component.html'
 })
 export class RemotePagingBatchEditingComponent implements OnInit, AfterViewInit, OnDestroy {

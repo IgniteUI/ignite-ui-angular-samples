@@ -8,7 +8,7 @@ import { take, takeUntil } from 'rxjs/operators';
 @Component({
     selector: 'app-tree-advanced-sample',
     templateUrl: './tree-advanced-sample.component.html',
-    styleUrls: ['./tree-advanced-sample.component.scss'],
+    styleUrls: ['./tree-advanced-sample.component.css'],
     providers: [DataService]
 })
 export class TreeAdvancedSampleComponent implements AfterViewInit, OnDestroy {

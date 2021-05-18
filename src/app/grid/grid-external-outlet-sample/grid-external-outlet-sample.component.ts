@@ -3,7 +3,7 @@ import { DATA } from '../../data/nwindData';
 
 @Component({
     selector: 'app-grid-external-outlet',
-    styleUrls: ['./grid-external-outlet-sample.component.scss'],
+    styleUrls: ['./grid-external-outlet-sample.component.css'],
     templateUrl: 'grid-external-outlet-sample.component.html'
 })
 

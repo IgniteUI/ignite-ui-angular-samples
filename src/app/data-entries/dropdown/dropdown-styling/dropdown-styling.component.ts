@@ -4,7 +4,7 @@ import { getHeroClassData, IHeroClass } from '../../../data/heroData';
 
 @Component({
     selector: 'app-dropdown-styling',
-    styleUrls: ['./dropdown-styling.component.scss'],
+    styleUrls: ['./dropdown-styling.component.css'],
     templateUrl: './dropdown-styling.component.html'
 })
 export class DropDownStylingComponent implements OnInit {

@@ -8,7 +8,7 @@ import { RemotePagingService } from './remotePagingService';
     encapsulation: ViewEncapsulation.None,
     providers: [RemotePagingService],
     selector: 'app-tree-grid-remote-paging-default-template',
-    styleUrls: ['./tree-grid-remote-paging-default-template.component.scss'],
+    styleUrls: ['./tree-grid-remote-paging-default-template.component.css'],
     templateUrl: './tree-grid-remote-paging-default-template.component.html'
 })
 export class TreeGridRemotePagingDefaultTemplateComponent implements OnInit, AfterViewInit, OnDestroy {

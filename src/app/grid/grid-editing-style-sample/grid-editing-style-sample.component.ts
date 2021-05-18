@@ -4,7 +4,7 @@ import { DATA } from '../../data/nwindData';
 
 @Component({
     selector: 'app-grid-editing-style-sample',
-    styleUrls: ['./grid-editing-style-sample.component.scss'],
+    styleUrls: ['./grid-editing-style-sample.component.css'],
     templateUrl: './grid-editing-style-sample.component.html'
 })
 export class GridEditingStyleSampleComponent implements OnInit {

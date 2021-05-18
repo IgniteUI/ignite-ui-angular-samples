@@ -8,7 +8,7 @@ import { Singer } from '../models';
 
 @Component({
     selector: 'app-hierarchical-grid-editing-events',
-    styleUrls: ['./hierarchical-grid-editing-events.component.scss'],
+    styleUrls: ['./hierarchical-grid-editing-events.component.css'],
     templateUrl: 'hierarchical-grid-editing-events.component.html'
 })
 

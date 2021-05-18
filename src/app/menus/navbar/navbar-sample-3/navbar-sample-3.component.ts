@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   providers: [Location, { provide: LocationStrategy, useClass: PathLocationStrategy }],
   selector: 'app-navbar',
-  styleUrls: ['./navbar-sample-3.component.scss'],
+  styleUrls: ['./navbar-sample-3.component.css'],
   templateUrl: './navbar-sample-3.component.html'
 })
 export class NavbarSample3Component implements OnInit{

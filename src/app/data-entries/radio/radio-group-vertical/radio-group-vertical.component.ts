@@ -3,7 +3,7 @@ import { RadioGroupAlignment } from 'igniteui-angular';
 
 @Component({
     selector: 'app-radio-group-vertical',
-    styleUrls: ['./radio-group-vertical.component.scss'],
+    styleUrls: ['./radio-group-vertical.component.css'],
     templateUrl: './radio-group-vertical.component.html'
 })
 export class RadioGroupVerticalComponent {

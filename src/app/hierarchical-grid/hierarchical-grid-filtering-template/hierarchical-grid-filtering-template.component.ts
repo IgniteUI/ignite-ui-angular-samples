@@ -12,7 +12,7 @@ import { SINGERS } from '../data';
 
 @Component({
     selector: 'app-hierarchical-grid-filtering-template',
-    styleUrls: ['./hierarchical-grid-filtering-template.component.scss'],
+    styleUrls: ['./hierarchical-grid-filtering-template.component.css'],
     templateUrl: 'hierarchical-grid-filtering-template.component.html'
 })
 

@@ -4,7 +4,7 @@ import { AMINO_DATA } from './data';
 
 @Component({
     selector: 'app-grid-nested-data-bind2',
-    styleUrls: ['./grid-nested-data-bind2.scss'],
+    styleUrls: ['./grid-nested-data-bind2.css'],
     templateUrl: './grid-nested-data-bind2.html'
 })
 export class GridNestedDataBindAminoacidComponent implements OnInit {

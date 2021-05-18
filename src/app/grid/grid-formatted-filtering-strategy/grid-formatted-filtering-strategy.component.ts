@@ -4,7 +4,7 @@ import { DATA } from '../../data/nwindData';
 
 @Component({
     selector: 'app-grid-sample',
-    styleUrls: ['./grid-formatted-filtering-strategy.component.scss'],
+    styleUrls: ['./grid-formatted-filtering-strategy.component.css'],
     templateUrl: 'grid-formatted-filtering-strategy.component.html'
 })
 export class GridFormattedFilteringStrategyComponent implements OnInit {

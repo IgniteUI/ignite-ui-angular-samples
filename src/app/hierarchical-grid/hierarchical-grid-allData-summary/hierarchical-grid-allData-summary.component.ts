@@ -45,7 +45,7 @@ class GrammySummary {
 
 @Component({
     selector: 'app-hierarchical-grid-all-data-summary',
-    styleUrls: ['./hierarchical-grid-allData-summary.component.scss'],
+    styleUrls: ['./hierarchical-grid-allData-summary.component.css'],
     templateUrl: 'hierarchical-grid-allData-summary.component.html'
 })
 

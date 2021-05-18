@@ -3,7 +3,7 @@ import { DateRangeType, IgxCalendarComponent, IgxDropDownComponent } from 'ignit
 
 @Component({
     selector: 'app-datepicker-sample-9',
-    styleUrls: ['./datepicker-sample-9.component.scss'],
+    styleUrls: ['./datepicker-sample-9.component.css'],
     templateUrl: './datepicker-sample-9.component.html'
 })
 export class DatepickerSample9Component implements OnInit {

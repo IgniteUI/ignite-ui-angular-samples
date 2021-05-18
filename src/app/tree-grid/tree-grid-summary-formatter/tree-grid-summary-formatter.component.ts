@@ -5,7 +5,7 @@ import { FOODS_DATA } from '../data/foods';
 
 @Component({
     selector: 'app-tree-grid-summary-formatter',
-    styleUrls: ['./tree-grid-summary-formatter.component.scss'],
+    styleUrls: ['./tree-grid-summary-formatter.component.css'],
     templateUrl: 'tree-grid-summary-formatter.component.html'
 })
 

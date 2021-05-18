@@ -8,7 +8,7 @@ import { CsvFileTypes,
 
 @Component({
   selector: 'app-csv-export-sample-1',
-  styleUrls: ['./csv-export-sample-1.component.scss'],
+  styleUrls: ['./csv-export-sample-1.component.css'],
   templateUrl: './csv-export-sample-1.component.html'
 })
 export class CsvExportSample1Component {

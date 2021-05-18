@@ -3,7 +3,7 @@ import { CalendarView, IgxCalendarComponent, IgxDatePickerComponent } from 'igni
 
 @Component({
     selector: 'app-datepicker-sample-8',
-    styleUrls: ['./datepicker-sample-8.component.scss'],
+    styleUrls: ['./datepicker-sample-8.component.css'],
     templateUrl: './datepicker-sample-8.component.html'
 })
 

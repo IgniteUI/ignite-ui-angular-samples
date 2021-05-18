@@ -16,7 +16,7 @@ import { Record } from '../data/record';
 
 @Component({
     selector: 'app-default-theme-sample',
-    styleUrls: ['./default-theme-sample.component.scss'],
+    styleUrls: ['./default-theme-sample.component.css'],
     templateUrl: './default-theme-sample.component.html'
 })
 export class DefaultThemeSampleComponent implements OnInit {

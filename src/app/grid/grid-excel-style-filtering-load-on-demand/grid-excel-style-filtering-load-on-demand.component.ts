@@ -4,7 +4,7 @@ import { RemoteValuesService } from './remoteValues.service';
 
 @Component({
     selector: 'app-grid-excel-style-filtering-load-on-demand',
-    styleUrls: ['./grid-excel-style-filtering-load-on-demand.component.scss'],
+    styleUrls: ['./grid-excel-style-filtering-load-on-demand.component.css'],
     templateUrl: './grid-excel-style-filtering-load-on-demand.component.html',
     providers: [RemoteValuesService]
 })

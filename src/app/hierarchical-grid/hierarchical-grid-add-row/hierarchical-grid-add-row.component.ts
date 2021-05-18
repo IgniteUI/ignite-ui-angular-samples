@@ -4,7 +4,7 @@ import { Singer } from '../models';
 
 @Component({
     selector: 'app-hierarchical-grid-add-row',
-    styleUrls: ['./hierarchical-grid-add-row.component.scss'],
+    styleUrls: ['./hierarchical-grid-add-row.component.css'],
     templateUrl: './hierarchical-grid-add-row.component.html'
 })
 

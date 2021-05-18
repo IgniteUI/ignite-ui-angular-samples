@@ -32,7 +32,7 @@ class CustomSummary {
 
 @Component({
     selector: 'app-grid-groupby-summary-sample',
-    styleUrls: ['./grid-groupby-summary-styling-sample.component.scss'],
+    styleUrls: ['./grid-groupby-summary-styling-sample.component.css'],
     templateUrl: './grid-groupby-summary-styling-sample.component.html'
 })
 export class GridGroupBySummaryStylingSampleComponent {

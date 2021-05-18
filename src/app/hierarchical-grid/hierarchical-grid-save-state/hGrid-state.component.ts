@@ -23,7 +23,7 @@ class MySummary {
 // tslint:disable:object-literal-sort-keys
 @Component({
   selector: 'app-hgrid',
-  styleUrls: ['./hGrid-state.component.scss'],
+  styleUrls: ['./hGrid-state.component.css'],
   templateUrl: './hGrid-state.component.html'
 })
 

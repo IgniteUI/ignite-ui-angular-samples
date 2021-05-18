@@ -6,7 +6,7 @@ import { HierFinancialDataService } from '../services/hierFinancialData.service'
 @Component({
     providers: [HierFinancialDataService],
     selector: 'app-tree-grid-virtualization-sample',
-    styleUrls: ['./tree-grid-virtualization-sample.component.scss'],
+    styleUrls: ['./tree-grid-virtualization-sample.component.css'],
     templateUrl: 'tree-grid-virtualization-sample.component.html'
 })
 

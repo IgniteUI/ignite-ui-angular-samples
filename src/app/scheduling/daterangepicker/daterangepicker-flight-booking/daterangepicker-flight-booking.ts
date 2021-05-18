@@ -3,7 +3,7 @@ import { DateRange } from 'igniteui-angular';
 
 @Component({
     selector: 'app-flight-booking',
-    styleUrls: ['./daterangepicker-flight-booking.scss'],
+    styleUrls: ['./daterangepicker-flight-booking.css'],
     templateUrl: './daterangepicker-flight-booking.html'
 })
 export class FlightBookingComponent {

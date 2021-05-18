@@ -4,7 +4,7 @@ import { DATA } from '../../data/nwindData';
 
 @Component({
     selector: 'app-grid-contextmenu-sample',
-    styleUrls: ['./grid-contextmenu-sample.component.scss'],
+    styleUrls: ['./grid-contextmenu-sample.component.css'],
     templateUrl: './grid-contextmenu-sample.component.html'
 
 })

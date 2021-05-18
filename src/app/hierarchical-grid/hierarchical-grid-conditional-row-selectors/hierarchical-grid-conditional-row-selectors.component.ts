@@ -4,7 +4,7 @@ import { SINGERS } from '../data';
 
 @Component({
     selector: 'app-hierarchical-grid-conditional-row-selectors',
-    styleUrls: ['./hierarchical-grid-conditional-row-selectors.component.scss'],
+    styleUrls: ['./hierarchical-grid-conditional-row-selectors.component.css'],
     templateUrl: 'hierarchical-grid-conditional-row-selectors.component.html'
 })
 

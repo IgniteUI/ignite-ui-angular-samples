@@ -3,7 +3,7 @@ import { SINGERS } from '../data';
 
 @Component({
     selector: 'app-hierarchical-grid-paging',
-    styleUrls: ['./hierarchical-grid-paging.component.scss'],
+    styleUrls: ['./hierarchical-grid-paging.component.css'],
     templateUrl: 'hierarchical-grid-paging.component.html'
 })
 

@@ -3,7 +3,7 @@ import { Member } from '../model/member.model';
 
 @Component({
   selector: 'app-badge-styling-sample',
-  styleUrls: ['./badge-styling-sample.component.scss'],
+  styleUrls: ['./badge-styling-sample.component.css'],
   templateUrl: './badge-styling-sample.component.html'
 })
 export class BadgeStylingSampleComponent {

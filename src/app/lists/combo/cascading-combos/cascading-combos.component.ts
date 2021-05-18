@@ -3,7 +3,7 @@ import { data } from './local-data';
 
 @Component({
     selector: 'app-combo',
-    styleUrls: ['./cascading-combos.component.scss'],
+    styleUrls: ['./cascading-combos.component.css'],
     templateUrl: './cascading-combos.component.html'
 })
 export class CascadingCombosComponent {

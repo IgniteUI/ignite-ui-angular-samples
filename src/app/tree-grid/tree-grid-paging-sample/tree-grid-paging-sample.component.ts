@@ -5,7 +5,7 @@ import { FOODS_DATA } from '../data/foods';
 @Component({
     encapsulation: ViewEncapsulation.None,
     selector: 'app-tree-grid-paging-sample',
-    styleUrls: ['./tree-grid-paging-sample.component.scss'],
+    styleUrls: ['./tree-grid-paging-sample.component.css'],
     templateUrl: 'tree-grid-paging-sample.component.html'
 })
 

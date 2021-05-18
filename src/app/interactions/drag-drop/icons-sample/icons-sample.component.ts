@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'app-icons-sample',
-    styleUrls: ['./icons-sample.component.scss'],
+    styleUrls: ['./icons-sample.component.css'],
     templateUrl: './icons-sample.component.html'
 })
 

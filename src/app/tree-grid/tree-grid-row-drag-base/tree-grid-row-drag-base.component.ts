@@ -11,7 +11,7 @@ enum DragIcon {
 
 @Component({
     selector: 'app-tree-grid-row-drag-base',
-    styleUrls: ['tree-grid-row-drag-base.component.scss'],
+    styleUrls: ['tree-grid-row-drag-base.component.css'],
     templateUrl: 'tree-grid-row-drag-base.component.html'
 })
 export class TreeGridRowDragBaseComponent {

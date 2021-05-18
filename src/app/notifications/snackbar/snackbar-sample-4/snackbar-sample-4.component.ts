@@ -3,7 +3,7 @@ import { IgxSnackbarComponent } from 'igniteui-angular';
 
 @Component({
   selector: 'app-snackbar-sample-4',
-  styleUrls: ['./snackbar-sample-4.component.scss'],
+  styleUrls: ['./snackbar-sample-4.component.css'],
   templateUrl: './snackbar-sample-4.component.html'
 })
 export class SnackbarSample4Component implements OnInit {

@@ -9,7 +9,7 @@ const DEBOUNCE_TIME = 300;
 @Component({
     providers: [RemoteFilteringService],
     selector: 'app-tree-grid-remote-filtering-sample',
-    styleUrls: ['./tree-grid-remote-filtering-sample.component.scss'],
+    styleUrls: ['./tree-grid-remote-filtering-sample.component.css'],
     templateUrl: './tree-grid-remote-filtering-sample.component.html'
 })
 export class TreeGridRemoteFilteringSampleComponent implements OnInit, AfterViewInit, OnDestroy {

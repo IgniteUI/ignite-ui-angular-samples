@@ -3,7 +3,7 @@ import { IgxExpansionPanelComponent } from 'igniteui-angular';
 @Component({
     // tslint:disable-next-line:component-selector
     selector: 'app-expansion-sample-1',
-    styleUrls: ['./expansion-sample-1.component.scss'],
+    styleUrls: ['./expansion-sample-1.component.css'],
     templateUrl: './expansion-sample-1.component.html'
 })
 export class ExpansionPanelSample1Component {

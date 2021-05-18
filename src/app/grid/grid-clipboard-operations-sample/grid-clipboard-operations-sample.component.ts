@@ -3,7 +3,7 @@ import { DATA } from '../../data/nwindData';
 
 @Component({
     selector: 'app-grid-clipboard-operations-sample',
-    styleUrls: ['grid-clipboard-operations-sample.component.scss'],
+    styleUrls: ['grid-clipboard-operations-sample.component.css'],
     templateUrl: './grid-clipboard-operations-sample.component.html'
 })
 export class GridClipboardSampleComponent implements OnInit {

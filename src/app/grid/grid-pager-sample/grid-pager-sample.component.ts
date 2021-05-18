@@ -4,7 +4,7 @@ import { IPaginatorResourceStrings, IgxPaginatorComponent } from 'igniteui-angul
 
 @Component({
     selector: 'app-grid-pager-sample',
-    styleUrls: ['./grid-pager-sample.component.scss'],
+    styleUrls: ['./grid-pager-sample.component.css'],
     templateUrl: './grid-pager-sample.component.html'
 })
 export class GridPagerSampleComponent implements OnInit, AfterViewInit {

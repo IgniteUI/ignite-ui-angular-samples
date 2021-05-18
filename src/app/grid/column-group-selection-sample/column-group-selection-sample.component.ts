@@ -5,7 +5,7 @@ import { DATA } from '../../data/customers';
 @Component({
     selector: 'app-gird-column-group-selection',
     templateUrl: './column-group-selection-sample.component.html',
-    styleUrls: ['./column-group-selection-sample.component.scss']
+    styleUrls: ['./column-group-selection-sample.component.css']
 })
 export class GridColumnGroupSelectionComponent implements OnInit, AfterViewInit {
     @ViewChild(IgxGridComponent)

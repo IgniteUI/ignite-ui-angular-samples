@@ -3,7 +3,7 @@ import { SINGERS } from '../data';
 
 @Component({
     selector: 'app-hierarchical-grid-resize-line-styling',
-    styleUrls: ['./hierarchical-grid-resize-line-styling.component.scss'],
+    styleUrls: ['./hierarchical-grid-resize-line-styling.component.css'],
     templateUrl: './hierarchical-grid-resize-line-styling.component.html'
 })
 export class HGridResizeLineStylingComponent {

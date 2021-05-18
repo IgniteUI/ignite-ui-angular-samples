@@ -11,7 +11,7 @@ import {
 
 @Component({
     selector: 'app-card-sample-4',
-    styleUrls: ['./card-sample-4.component.scss'],
+    styleUrls: ['./card-sample-4.component.css'],
     templateUrl: './card-sample-4.component.html'
 })
 export class CardSample4Component implements OnInit {

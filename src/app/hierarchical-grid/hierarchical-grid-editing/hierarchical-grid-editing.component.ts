@@ -32,7 +32,7 @@ class MySummary {
 }
 @Component({
     selector: 'app-hierarchical-grid-editing',
-    styleUrls: ['./hierarchical-grid-editing.component.scss'],
+    styleUrls: ['./hierarchical-grid-editing.component.css'],
     templateUrl: 'hierarchical-grid-editing.component.html'
 })
 

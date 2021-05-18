@@ -5,7 +5,7 @@ import { DATA } from '../../data/nwindData';
 
 @Component({
     selector: 'app-grid-summary-formatter',
-    styleUrls: ['./grid-summary-formatter.component.scss'],
+    styleUrls: ['./grid-summary-formatter.component.css'],
     templateUrl: './grid-summary-formatter.component.html'
   })
 

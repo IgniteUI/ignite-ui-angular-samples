@@ -11,7 +11,7 @@ import { FOODS_DATA } from '../data/foods';
 
 @Component({
     selector: 'app-tree-grid-filtering-template-sample',
-    styleUrls: ['./tree-grid-filtering-template-sample.component.scss'],
+    styleUrls: ['./tree-grid-filtering-template-sample.component.css'],
     templateUrl: 'tree-grid-filtering-template-sample.component.html'
 })
 

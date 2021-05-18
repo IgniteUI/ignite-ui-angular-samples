@@ -11,7 +11,7 @@ enum DragIcon {
 
 @Component({
     selector: 'app-hierarchical-grid-row-drag',
-    styleUrls: ['./hierarchical-grid-row-drag.component.scss'],
+    styleUrls: ['./hierarchical-grid-row-drag.component.css'],
     templateUrl: 'hierarchical-grid-row-drag.component.html'
 })
 

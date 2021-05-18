@@ -5,7 +5,7 @@ import { SINGERS } from '../data';
 @Component({
   selector: 'app-hierarchical-grid-column-selection-styles',
   templateUrl: './hierarchical-grid-column-selection-styles.component.html',
-  styleUrls: ['./hierarchical-grid-column-selection-styles.component.scss']
+  styleUrls: ['./hierarchical-grid-column-selection-styles.component.css']
 })
 export class HGridColumnSelectionStylesComponent implements OnInit, AfterViewInit {
     @ViewChild(IgxHierarchicalGridComponent)

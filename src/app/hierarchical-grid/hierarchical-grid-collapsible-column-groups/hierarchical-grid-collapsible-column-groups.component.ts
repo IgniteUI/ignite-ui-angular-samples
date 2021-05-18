@@ -4,7 +4,7 @@ import { CUSTOMERS } from '../data';
 
 @Component({
     selector: 'app-hierarchical-grid-collapsible-column-groups',
-    styleUrls: ['./hierarchical-grid-collapsible-column-groups.component.scss'],
+    styleUrls: ['./hierarchical-grid-collapsible-column-groups.component.css'],
     templateUrl: 'hierarchical-grid-collapsible-column-groups.component.html'
 })
 

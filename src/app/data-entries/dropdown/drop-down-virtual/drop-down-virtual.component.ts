@@ -12,7 +12,7 @@ interface DataItem {
 @Component({
   selector: 'app-drop-down-virtual',
   templateUrl: './drop-down-virtual.component.html',
-  styleUrls: ['./drop-down-virtual.component.scss']
+  styleUrls: ['./drop-down-virtual.component.css']
 })
 export class DropDownVirtualComponent {
   public items: DataItem[];

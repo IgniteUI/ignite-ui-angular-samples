@@ -4,7 +4,7 @@ import { FOODS_DATA } from '../data/foods';
 
 @Component({
     selector: 'app-tree-grid-filtering-custom-sample',
-    styleUrls: ['./tree-grid-filtering-custom-sample.component.scss'],
+    styleUrls: ['./tree-grid-filtering-custom-sample.component.css'],
     templateUrl: './tree-grid-filtering-custom-sample.component.html'
 })
 export class TreeGridFilteringCustomSampleComponent implements OnInit {

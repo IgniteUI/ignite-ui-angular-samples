@@ -7,7 +7,7 @@ import { Singer } from '../models';
 
 @Component({
     selector: 'app-hierarchical-grid-batch-editing',
-    styleUrls: ['./hierarchical-grid-batch-editing.component.scss'],
+    styleUrls: ['./hierarchical-grid-batch-editing.component.css'],
     templateUrl: 'hierarchical-grid-batch-editing.component.html'
 })
 

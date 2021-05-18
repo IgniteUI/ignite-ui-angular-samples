@@ -3,7 +3,7 @@ import { IgxSliderType } from 'igniteui-angular';
 
 @Component({
   selector: 'app-slider-sample-5',
-  styleUrls: ['./slider-sample-5.component.scss'],
+  styleUrls: ['./slider-sample-5.component.css'],
   templateUrl: './slider-sample-5.component.html'
 })
 export class SliderSample5Component implements OnInit {

@@ -4,7 +4,7 @@ import { CUSTOMERS } from '../data';
 
 @Component({
     selector: 'app-hierarchical-grid-density',
-    styleUrls: ['./hierarchical-grid-density.component.scss'],
+    styleUrls: ['./hierarchical-grid-density.component.css'],
     templateUrl: 'hierarchical-grid-density.component.html'
 })
 

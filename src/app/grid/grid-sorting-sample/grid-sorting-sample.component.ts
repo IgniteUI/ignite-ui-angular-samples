@@ -10,7 +10,7 @@ enum TYPE {
 }
 @Component({
     selector: 'app-grid-sample',
-    styleUrls: ['./grid-sorting-sample.component.scss'],
+    styleUrls: ['./grid-sorting-sample.component.css'],
     templateUrl: 'grid-sorting-sample.component.html'
 })
 

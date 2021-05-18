@@ -3,7 +3,7 @@ import { SINGERS } from '../data';
 
 @Component({
     selector: 'app-hierarchical-grid-hiding',
-    styleUrls: ['./hierarchical-grid-hiding.component.scss'],
+    styleUrls: ['./hierarchical-grid-hiding.component.css'],
     templateUrl: 'hierarchical-grid-hiding.component.html'
 })
 

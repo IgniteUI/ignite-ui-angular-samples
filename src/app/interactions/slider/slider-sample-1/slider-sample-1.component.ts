@@ -5,7 +5,7 @@ import { takeUntil } from 'rxjs/operators';
 
 @Component({
     selector: 'app-slider-sample-1',
-    styleUrls: ['./slider-sample-1.component.scss'],
+    styleUrls: ['./slider-sample-1.component.css'],
     templateUrl: './slider-sample-1.component.html'
 })
 export class SliderSample1Component implements OnInit, OnDestroy {

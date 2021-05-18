@@ -27,7 +27,7 @@ import {
 
 @Component({
     selector: 'app-animations-sample-1',
-    styleUrls: ['./animations-sample-1.component.scss'],
+    styleUrls: ['./animations-sample-1.component.css'],
     templateUrl: './animations-sample-1.component.html'
 })
 export class AnimationsSampleComponent {

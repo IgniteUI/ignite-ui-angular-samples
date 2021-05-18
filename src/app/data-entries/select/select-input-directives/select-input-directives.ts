@@ -3,7 +3,7 @@ import { IgxSelectComponent } from 'igniteui-angular';
 
 @Component({
     selector: 'app-select-input-directives',
-    styleUrls: ['select-input-directives.scss'],
+    styleUrls: ['select-input-directives.css'],
     templateUrl: 'select-input-directives.html'
 })
 

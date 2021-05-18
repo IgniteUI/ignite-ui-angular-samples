@@ -12,7 +12,7 @@ import { takeUntil } from 'rxjs/operators';
 import { MyDynamicCardComponent } from '../overlay-dynamic-card/overlay-dynamic-card.component';
 @Component({
     selector: 'app-overlay-sample',
-    styleUrls: ['./overlay-scroll-sample-2.component.scss'],
+    styleUrls: ['./overlay-scroll-sample-2.component.css'],
     templateUrl: './overlay-scroll-sample-2.component.html',
     providers: [IgxOverlayService]
 })

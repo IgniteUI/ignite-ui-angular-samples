@@ -11,7 +11,7 @@ import { athletesData } from '../services/data';
 
 @Component({
   selector: 'app-grid-toolbar-sample-3',
-  styleUrls: ['./grid-toolbar-sample-3.component.scss'],
+  styleUrls: ['./grid-toolbar-sample-3.component.css'],
   templateUrl: './grid-toolbar-sample-3.component.html'
 })
 export class GridToolbarSample3Component {

@@ -4,7 +4,7 @@ import { localData } from './local-data';
 
 @Component({
     selector: 'app-combo',
-    styleUrls: ['./combo-features.component.scss'],
+    styleUrls: ['./combo-features.component.css'],
     templateUrl: './combo-features.component.html'
 })
 export class ComboFeaturesComponent implements OnInit{

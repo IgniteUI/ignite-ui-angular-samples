@@ -3,7 +3,7 @@ import { IBaseChipEventArgs, IChipsAreaReorderEventArgs } from 'igniteui-angular
 
 @Component({
     selector: 'app-chip',
-    styleUrls: ['./chip-styling.component.scss'],
+    styleUrls: ['./chip-styling.component.css'],
     templateUrl: './chip-styling.component.html'
 })
 

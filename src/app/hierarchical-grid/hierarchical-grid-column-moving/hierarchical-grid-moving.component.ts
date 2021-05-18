@@ -4,7 +4,7 @@ import { CUSTOMERS } from '../data';
 
 @Component({
     selector: 'app-hierarchical-grid-moving',
-    styleUrls: ['./hierarchical-grid-moving.component.scss'],
+    styleUrls: ['./hierarchical-grid-moving.component.css'],
     templateUrl: 'hierarchical-grid-moving.component.html'
 })
 

@@ -6,7 +6,7 @@ import { BehaviorSubject } from 'rxjs';
 @Component({
     providers: [RemotePagingService],
     selector: 'app-hierarchical-grid-remote-paging',
-    styleUrls: ['./hierarchical-grid-remote-paging.component.scss'],
+    styleUrls: ['./hierarchical-grid-remote-paging.component.css'],
     templateUrl: 'hierarchical-grid-remote-paging.component.html'
 })
 

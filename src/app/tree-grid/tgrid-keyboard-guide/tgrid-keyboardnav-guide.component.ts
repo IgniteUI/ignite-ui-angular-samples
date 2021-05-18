@@ -155,7 +155,7 @@ const summaryCombinations: Item[] = [
 @Component({
     selector: 'app-grid-keyboardnav',
     templateUrl: './tgrid-keyboardnav-guide.component.html',
-    styleUrls: ['tgrid-keyboardnav-guide.component.scss'],
+    styleUrls: ['tgrid-keyboardnav-guide.component.css'],
     animations: [
         trigger('toggle', [
             state('selected', style({

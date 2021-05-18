@@ -10,7 +10,7 @@ import { DATA } from '../../data/customers';
 
 @Component({
     selector: 'app-grid-row-pinning-drag-sample',
-    styleUrls: ['./grid-row-pinning-drag.component.scss'],
+    styleUrls: ['./grid-row-pinning-drag.component.css'],
     templateUrl: 'grid-row-pinning-drag.component.html'
 })
 

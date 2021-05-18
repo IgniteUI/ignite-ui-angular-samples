@@ -3,7 +3,7 @@ import { DisplayDensity, IgxActionStripComponent } from 'igniteui-angular';
 
 @Component({
   selector: 'app-action-strip-paragraph-menu',
-  styleUrls: ['./action-strip-paragraph-menu.component.scss'],
+  styleUrls: ['./action-strip-paragraph-menu.component.css'],
   templateUrl: './action-strip-paragraph-menu.component.html'
 })
 export class ActionStripParagraphMenuComponent {

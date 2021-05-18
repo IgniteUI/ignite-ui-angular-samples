@@ -3,7 +3,7 @@ import { IgxOverlayService } from 'igniteui-angular';
 
 @Component({
   selector: 'app-datepicker-sample-1',
-  styleUrls: ['./datepicker-styling-sample.component.scss'],
+  styleUrls: ['./datepicker-styling-sample.component.css'],
   templateUrl: './datepicker-styling-sample.component.html'
 })
 export class DatepickerStylingSampleComponent {

@@ -32,7 +32,7 @@ class MySummary {
 }
 @Component({
     selector: 'app-grid-sample',
-    styleUrls: ['./grid-custom-summaries-selection.component.scss'],
+    styleUrls: ['./grid-custom-summaries-selection.component.css'],
     templateUrl: 'grid-custom-summaries-selection.component.html'
 })
 

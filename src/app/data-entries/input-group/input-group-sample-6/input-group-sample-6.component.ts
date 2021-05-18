@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { BaseInputGroupSampleComponent } from '../base-input.component';
 @Component({
     selector: 'app-input-group-sample-6',
-    styleUrls: ['./input-group-sample-6.component.scss'],
+    styleUrls: ['./input-group-sample-6.component.css'],
     templateUrl: './input-group-sample-6.component.html'
 })
 export class InputGroupSample6Component extends BaseInputGroupSampleComponent {

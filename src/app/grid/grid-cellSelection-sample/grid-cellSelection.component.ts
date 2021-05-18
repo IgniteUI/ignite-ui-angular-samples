@@ -4,7 +4,7 @@ import { DATA } from '../../data/nwindData';
 
 @Component({
     selector: 'app-grid-cell-selection',
-    styleUrls: ['./grid-cellSelection.component.scss'],
+    styleUrls: ['./grid-cellSelection.component.css'],
     templateUrl: 'grid-cellSelection.component.html'
 })
 export class GridCellSelectionComponent implements OnInit {

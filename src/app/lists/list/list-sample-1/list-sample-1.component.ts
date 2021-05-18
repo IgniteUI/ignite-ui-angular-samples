@@ -2,7 +2,7 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-igx-list-demo',
-  styleUrls: ['./list-sample-1.component.scss'],
+  styleUrls: ['./list-sample-1.component.css'],
   templateUrl: './list-sample-1.component.html'
 })
 export class ListSample1Component implements OnInit {

@@ -4,7 +4,7 @@ import { IgxListComponent, IgxToastComponent } from 'igniteui-angular';
 
 @Component({
     selector: 'app-contact-list2',
-    styleUrls: ['./list-sample-7.component.scss'],
+    styleUrls: ['./list-sample-7.component.css'],
     templateUrl: './list-sample-7.component.html'
 })
 export class ListSample7Component implements OnInit {

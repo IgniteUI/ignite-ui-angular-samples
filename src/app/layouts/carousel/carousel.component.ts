@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-carousel',
-  styleUrls: ['./carousel.component.scss'],
+  styleUrls: ['./carousel.component.css'],
   templateUrl: './carousel.component.html'
 })
 

@@ -4,7 +4,7 @@ import { IgxBannerComponent } from 'igniteui-angular';
 @Component({
     selector: 'app-banner-sample-4',
     templateUrl: './banner-sample-4.component.html',
-    styleUrls: ['./banner-sample-4.component.scss']
+    styleUrls: ['./banner-sample-4.component.css']
 })
 export class BannerSample4Component implements OnInit {
     @ViewChild(IgxBannerComponent, { static: true }) public banner: IgxBannerComponent;

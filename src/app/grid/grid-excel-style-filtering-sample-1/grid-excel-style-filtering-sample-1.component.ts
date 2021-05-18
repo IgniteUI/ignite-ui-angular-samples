@@ -4,7 +4,7 @@ import { DATA } from '../../data/nwindData';
 
 @Component({
     selector: 'app-grid-sample',
-    styleUrls: ['./grid-excel-style-filtering-sample-1.component.scss'],
+    styleUrls: ['./grid-excel-style-filtering-sample-1.component.css'],
     templateUrl: 'grid-excel-style-filtering-sample-1.component.html'
 })
 

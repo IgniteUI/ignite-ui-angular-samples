@@ -6,7 +6,7 @@ import { DATA } from '../../data/customers';
     encapsulation: ViewEncapsulation.None,
     providers: [],
     selector: 'app-grid-sample',
-    styleUrls: ['grid-pinning-styling.component.scss'],
+    styleUrls: ['grid-pinning-styling.component.css'],
     templateUrl: 'grid-pinning-styling.component.html'
 
 })

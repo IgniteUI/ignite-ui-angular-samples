@@ -4,7 +4,7 @@ import { generateEmployeeDetailedFlatData } from '../data/employees-flat-detaile
 
 @Component({
   selector: 'app-tree-grid-column-pinning-sample',
-  styleUrls: ['./tree-grid-column-pinning-sample.component.scss'],
+  styleUrls: ['./tree-grid-column-pinning-sample.component.css'],
   templateUrl: './tree-grid-column-pinning-sample.component.html'
 })
 export class TreeGridColumnPinningSampleComponent {

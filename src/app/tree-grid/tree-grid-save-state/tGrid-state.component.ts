@@ -9,7 +9,7 @@ import { EMPLOYEE_DATA } from './data';
 // tslint:disable:object-literal-sort-keys
 @Component({
   selector: 'app-tgrid',
-  styleUrls: ['./tGrid-state.component.scss'],
+  styleUrls: ['./tGrid-state.component.css'],
   templateUrl: './tGrid-state.component.html'
 })
 

@@ -5,7 +5,7 @@ import { DATA } from '../../data/nwindData';
 @Component({
     selector: 'app-grid-editing-lifecycle',
     templateUrl: 'grid-editing-lifecycle.component.html',
-    styleUrls: ['grid-editing-lifecycle.component.scss']
+    styleUrls: ['grid-editing-lifecycle.component.css']
 })
 export class GridEditingLifecycleComponent {
     @ViewChild('logger')

@@ -11,7 +11,7 @@ enum HoverClassList {
 
 @Component({
     selector: 'app-grid-row-drag-sample',
-    styleUrls: ['./grid-row-drag.component.scss'],
+    styleUrls: ['./grid-row-drag.component.css'],
     templateUrl: 'grid-row-drag.component.html'
 })
 

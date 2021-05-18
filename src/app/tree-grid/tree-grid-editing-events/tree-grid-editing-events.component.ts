@@ -5,7 +5,7 @@ import { generateEmployeeFlatData, IEmployee } from '../data/employees-flat';
 @Component({
     selector: 'app-tree-grid-editing-events',
     templateUrl: 'tree-grid-editing-events.component.html',
-    styleUrls: ['tree-grid-editing-events.component.scss']
+    styleUrls: ['tree-grid-editing-events.component.css']
 })
 export class TreeGridEditingEventsComponent implements OnInit {
     @ViewChild(IgxToastComponent, { read: IgxToastComponent, static: true })

@@ -25,7 +25,7 @@ class CustomNumberSummary {
 
 @Component({
     selector: 'app-tree-grid-editing-sample',
-    styleUrls: ['./tree-grid-editing-sample.component.scss'],
+    styleUrls: ['./tree-grid-editing-sample.component.css'],
     templateUrl: './tree-grid-editing-sample.component.html'
 })
 export class TreeGridEditingSampleComponent implements OnInit {

@@ -3,7 +3,7 @@ import { IgxCarouselComponent, IgxListComponent, IListItemClickEventArgs, ISlide
 
 @Component({
   selector: 'app-carousel',
-  styleUrls: ['./carousel-no-navigation-sample.component.scss'],
+  styleUrls: ['./carousel-no-navigation-sample.component.css'],
   templateUrl: './carousel-no-navigation-sample.component.html'
 })
 export class CarouselNoNavigationSampleComponent implements OnInit {

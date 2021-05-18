@@ -3,7 +3,7 @@ import { IgxCarouselComponent } from 'igniteui-angular';
 
 @Component({
   selector: 'app-carousel',
-  styleUrls: ['./carousel-animations-sample.component.scss'],
+  styleUrls: ['./carousel-animations-sample.component.css'],
   templateUrl: './carousel-animations-sample.component.html'
 })
 export class CarouselAnimationsSampleComponent implements OnInit {

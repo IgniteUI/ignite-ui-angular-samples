@@ -11,7 +11,7 @@ import {
 @Component({
     selector: 'app-drag-dialog-sample',
     templateUrl: './drag-dialog-sample.component.html',
-    styleUrls: ['./drag-dialog-sample.component.scss']
+    styleUrls: ['./drag-dialog-sample.component.css']
 })
 export class DragDialogSampleComponent {
     @ViewChild('toggleForm', { static: true })

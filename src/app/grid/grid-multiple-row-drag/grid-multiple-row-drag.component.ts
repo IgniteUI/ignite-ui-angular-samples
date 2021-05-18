@@ -4,7 +4,7 @@ import { IgxGridComponent } from 'igniteui-angular';
 import { DATA } from '../../data/customers';
 @Component({
     selector: 'app-grid-multiple-row-drag',
-    styleUrls: ['./grid-multiple-row-drag.component.scss'],
+    styleUrls: ['./grid-multiple-row-drag.component.css'],
     templateUrl: './grid-multiple-row-drag.component.html'
 })
 export class GridMultipleRowDragComponent  {

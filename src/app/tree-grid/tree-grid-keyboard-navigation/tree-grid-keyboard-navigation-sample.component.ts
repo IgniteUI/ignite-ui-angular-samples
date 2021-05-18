@@ -4,7 +4,7 @@ import { EMPLOYEE_DATA } from '../tree-grid-clipboard-operations-sample/data';
 
 @Component({
     selector: 'app-tree-grid-keyboard-navigation-sample',
-    styleUrls: ['./tree-grid-keyboard-navigation-sample.component.scss'],
+    styleUrls: ['./tree-grid-keyboard-navigation-sample.component.css'],
     templateUrl: './tree-grid-keyboard-navigation-sample.component.html'
 })
 export class TreeGridKBNavigationComponent implements OnInit {

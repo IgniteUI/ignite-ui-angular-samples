@@ -9,7 +9,7 @@ import { DATA } from '../../data/customers';
 @Component({
     selector: 'app-grid-row-pinning',
     templateUrl: 'grid-row-pinning.component.html',
-    styleUrls: ['./grid-row-pinning.component.scss']
+    styleUrls: ['./grid-row-pinning.component.css']
 })
 
 export class GridRowPinningSampleComponent implements OnInit {

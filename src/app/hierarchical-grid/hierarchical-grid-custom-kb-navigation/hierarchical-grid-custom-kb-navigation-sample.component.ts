@@ -7,7 +7,7 @@ import { SINGERS } from '../data';
 
 @Component({
     selector: 'app-hierarchical-grid-custom-kb-navigation-sample',
-    styleUrls: ['./hierarchical-grid-custom-kb-navigation-sample.component.scss'],
+    styleUrls: ['./hierarchical-grid-custom-kb-navigation-sample.component.css'],
     templateUrl: 'hierarchical-grid-custom-kb-navigation-sample.component.html'
 })
 

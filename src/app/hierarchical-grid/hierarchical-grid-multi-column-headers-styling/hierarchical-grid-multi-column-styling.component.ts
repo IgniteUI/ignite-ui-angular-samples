@@ -3,7 +3,7 @@ import { CUSTOMERS } from '../data';
 
 @Component({
     selector: 'app-hierarchical-grid-multi-column-styling',
-    styleUrls: ['./hierarchical-grid-multi-column-styling.component.scss'],
+    styleUrls: ['./hierarchical-grid-multi-column-styling.component.css'],
     templateUrl: 'hierarchical-grid-multi-column-styling.component.html'
 })
 

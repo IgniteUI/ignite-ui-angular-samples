@@ -5,7 +5,7 @@ import { RemoteValuesService } from './remoteValues.service';
 @Component({
   selector: 'app-hierarchical-grid-excel-style-filtering-load-on-demand',
   templateUrl: './hierarchical-grid-excel-style-filtering-load-on-demand.component.html',
-  styleUrls: ['./hierarchical-grid-excel-style-filtering-load-on-demand.component.scss'],
+  styleUrls: ['./hierarchical-grid-excel-style-filtering-load-on-demand.component.css'],
   providers: [RemoteValuesService]
 })
 export class HierarchicalGridExcelStyleFilteringLoadOnDemandComponent implements OnInit {

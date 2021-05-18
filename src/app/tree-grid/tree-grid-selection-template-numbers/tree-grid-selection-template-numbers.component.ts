@@ -3,7 +3,7 @@ import { generateEmployeeFlatData } from '../data/employees-flat';
 
 @Component({
     selector: 'app-tree-grid-selection-template-numbers',
-    styleUrls: ['./tree-grid-selection-template-numbers.component.scss'],
+    styleUrls: ['./tree-grid-selection-template-numbers.component.css'],
     templateUrl: './tree-grid-selection-template-numbers.component.html'
 })
 export class TreeGridSelectionTemplateNumbersSampleComponent implements OnInit {

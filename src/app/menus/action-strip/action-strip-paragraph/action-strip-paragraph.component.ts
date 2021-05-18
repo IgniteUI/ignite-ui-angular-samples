@@ -3,7 +3,7 @@ import { DisplayDensity } from 'igniteui-angular';
 
 @Component({
   selector: 'app-action-strip-paragraph',
-  styleUrls: ['./action-strip-paragraph.component.scss'],
+  styleUrls: ['./action-strip-paragraph.component.css'],
   templateUrl: './action-strip-paragraph.component.html'
 })
 export class ActionStripParagraphComponent {

@@ -10,7 +10,7 @@ import { CloseScrollStrategy,
 
 @Component({
     selector: 'app-dialog-styling-sample',
-    styleUrls: ['./dialog-styling-sample.component.scss'],
+    styleUrls: ['./dialog-styling-sample.component.css'],
     templateUrl: './dialog-styling-sample.component.html'
 })
 export class DialogStylingSampleComponent implements OnInit {

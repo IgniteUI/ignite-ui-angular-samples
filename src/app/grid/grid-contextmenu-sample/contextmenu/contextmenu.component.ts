@@ -6,7 +6,7 @@ interface ICopyData {
 }
 @Component({
     selector: 'app-contextmenu',
-    styleUrls: ['./contextmenu.component.scss'],
+    styleUrls: ['./contextmenu.component.css'],
     templateUrl: './contextmenu.component.html'
 })
 export class ContextmenuComponent {

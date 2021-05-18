@@ -3,7 +3,7 @@ import { SINGERS } from '../data';
 
 @Component({
     selector: 'app-hierarchical-grid-row-edit-style',
-    styleUrls: ['./hierarchical-grid-row-edit-style.component.scss'],
+    styleUrls: ['./hierarchical-grid-row-edit-style.component.css'],
     templateUrl: 'hierarchical-grid-row-edit-style.component.html'
 })
 

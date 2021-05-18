@@ -5,7 +5,7 @@ import  {generateRandomInteger, generateRandomFloat} from '../../data/utils';
 @Component({
   selector: 'app-grid-sorting-indicators',
   templateUrl: './grid-sorting-indicators.component.html',
-  styleUrls: ['./grid-sorting-indicators.component.scss']
+  styleUrls: ['./grid-sorting-indicators.component.css']
 })
 export class GridSortingIndicatorsComponent implements OnInit, AfterViewInit {
 

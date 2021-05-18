@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'app-tick-labels-template',
-    styleUrls: ['./tick-labels-template.component.scss'],
+    styleUrls: ['./tick-labels-template.component.css'],
     templateUrl: './tick-labels-template.component.html'
 })
 export class TickLabelsTemplateComponent {

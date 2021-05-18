@@ -4,7 +4,7 @@ import { generateEmployeeFlatData } from '../data/employees-flat';
 
 @Component({
     selector: 'app-tree-grid-conditional-row-selectors',
-    styleUrls: ['./tree-grid-conditional-row-selectors.component.scss'],
+    styleUrls: ['./tree-grid-conditional-row-selectors.component.css'],
     templateUrl: 'tree-grid-conditional-row-selectors.component.html'
 })
 

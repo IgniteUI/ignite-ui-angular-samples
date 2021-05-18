@@ -32,7 +32,7 @@ class ToggleButton {
 
 @Component({
     selector: 'app-button-group-sample-3',
-    styleUrls: ['./button-group-sample-3.component.scss'],
+    styleUrls: ['./button-group-sample-3.component.css'],
     templateUrl: './button-group-sample-3.component.html'
 })
 export class ButtonGroupSample3Component implements OnInit {

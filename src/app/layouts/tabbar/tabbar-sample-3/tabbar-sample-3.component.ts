@@ -5,7 +5,7 @@ import { ISelectionEventArgs } from 'igniteui-angular';
 
 @Component({
     selector: 'app-tabbar-sample-3',
-    styleUrls: ['tabbar-sample-3.component.scss'],
+    styleUrls: ['tabbar-sample-3.component.css'],
     templateUrl: './components/tabbar-sample-3.component.html'
 })
 export class TabbarSample3Component implements OnInit {

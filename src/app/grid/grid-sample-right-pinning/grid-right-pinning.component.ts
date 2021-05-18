@@ -7,7 +7,7 @@ import { athletesData } from '../services/data';
     encapsulation: ViewEncapsulation.None,
     providers: [],
     selector: 'app-grid-sample',
-    styleUrls: ['grid-right-pinning.component.scss'],
+    styleUrls: ['grid-right-pinning.component.css'],
     templateUrl: 'grid-right-pinning.component.html'
 })
 

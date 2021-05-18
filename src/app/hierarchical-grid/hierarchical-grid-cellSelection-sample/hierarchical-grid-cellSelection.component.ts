@@ -4,7 +4,7 @@ import { SINGERS } from '../data';
 
 @Component({
     selector: 'app-hierarchical-grid-cell-selection',
-    styleUrls: ['./hierarchical-grid-cellSelection.component.scss'],
+    styleUrls: ['./hierarchical-grid-cellSelection.component.css'],
     templateUrl: 'hierarchical-grid-cellSelection.component.html'
 })
 export class HierarchicalGridCellSelectionComponent implements OnInit {

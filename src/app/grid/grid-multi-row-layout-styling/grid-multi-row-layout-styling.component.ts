@@ -5,7 +5,7 @@ import { DATA } from '../../data/customers';
 @Component({
     encapsulation: ViewEncapsulation.None,
     selector: 'app-grid-multi-row-layout-styling-sample',
-    styleUrls: ['./grid-multi-row-layout-styling.component.scss'],
+    styleUrls: ['./grid-multi-row-layout-styling.component.css'],
     templateUrl: './grid-multi-row-layout-styling.component.html'
 })
 export class GridMultiRowLayoutStylingComponent {

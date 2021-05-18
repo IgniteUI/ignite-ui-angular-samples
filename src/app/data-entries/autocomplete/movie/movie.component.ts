@@ -2,7 +2,7 @@ import { Component, Pipe, PipeTransform } from '@angular/core';
 import { ConnectedPositioningStrategy, VerticalAlignment } from 'igniteui-angular';
 @Component({
     selector: 'app-movie-availability',
-    styleUrls: ['./movie.component.scss'],
+    styleUrls: ['./movie.component.css'],
     templateUrl: './movie.component.html'
 })
 export class MovieComponent {

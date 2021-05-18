@@ -5,7 +5,7 @@ import { FOODS_DATA } from '../data/foods';
 @Component({
     encapsulation: ViewEncapsulation.None,
     selector: 'app-tree-grid-multi-cell-selection-sample',
-    styleUrls: ['./tree-grid-multi-cell-selection.component.scss'],
+    styleUrls: ['./tree-grid-multi-cell-selection.component.css'],
     templateUrl: './tree-grid-multi-cell-selection.component.html'
 })
 export class TreeGridMultiCellSelectionComponent {

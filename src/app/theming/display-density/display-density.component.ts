@@ -4,7 +4,7 @@ import { DisplayDensityToken, IDisplayDensityOptions } from 'igniteui-angular';
 @Component({
     providers: [{ provide: DisplayDensityToken, useValue: { displayDensity: 'comfortable' } }],
     selector: 'app-display-density',
-    styleUrls: ['./display-density.component.scss'],
+    styleUrls: ['./display-density.component.css'],
     templateUrl: './display-density.component.html'
 })
 

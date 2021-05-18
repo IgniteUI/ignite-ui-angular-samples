@@ -3,7 +3,7 @@ import { IgxSliderType } from 'igniteui-angular';
 
 @Component({
     selector: 'app-slider-timeframe',
-    styleUrls: ['./slider-timeframe.component.scss'],
+    styleUrls: ['./slider-timeframe.component.css'],
     templateUrl: './slider-timeframe.component.html'
 })
 export class SliderTimeframeComponent {

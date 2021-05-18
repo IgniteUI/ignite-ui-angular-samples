@@ -4,7 +4,7 @@ import { DATA } from '../../data/customers';
 
 @Component({
     selector: 'app-grid-row-reorder-sample',
-    styleUrls: ['grid-row-reorder.scss'],
+    styleUrls: ['grid-row-reorder.css'],
     templateUrl: 'grid-row-reorder.html'
 })
 export class GridRowReorderComponent {

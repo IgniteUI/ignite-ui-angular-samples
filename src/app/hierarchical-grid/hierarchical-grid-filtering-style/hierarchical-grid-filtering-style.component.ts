@@ -3,7 +3,7 @@ import { SINGERS } from '../data';
 
 @Component({
   selector: 'app-hierarchical-grid-filtering-style',
-  styleUrls: ['./hierarchical-grid-filtering-style.component.scss'],
+  styleUrls: ['./hierarchical-grid-filtering-style.component.css'],
   templateUrl: './hierarchical-grid-filtering-style.component.html'
 })
 export class HierarchicalGridFilteringStyleComponent implements OnInit {

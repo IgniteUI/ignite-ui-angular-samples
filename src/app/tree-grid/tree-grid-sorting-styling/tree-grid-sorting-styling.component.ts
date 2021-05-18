@@ -4,7 +4,7 @@ import { FOODS_DATA } from '../data/foods';
 
 @Component({
     selector: 'app-tree-grid-sorting-styling',
-    styleUrls: ['./tree-grid-sorting-styling.component.scss'],
+    styleUrls: ['./tree-grid-sorting-styling.component.css'],
     templateUrl: 'tree-grid-sorting-styling.component.html'
 })
 

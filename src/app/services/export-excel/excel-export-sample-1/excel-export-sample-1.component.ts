@@ -10,7 +10,7 @@ import { INVOICE_DATA } from '../data/invoiceData';
 
 @Component({
   selector: 'app-excel-export-sample-1',
-  styleUrls: ['./excel-export-sample-1.component.scss'],
+  styleUrls: ['./excel-export-sample-1.component.css'],
   templateUrl: './excel-export-sample-1.component.html'
 })
 export class ExcelExportSample1Component implements OnInit {

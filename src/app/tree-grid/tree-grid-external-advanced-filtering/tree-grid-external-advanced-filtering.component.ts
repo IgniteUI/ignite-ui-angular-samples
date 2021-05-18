@@ -4,7 +4,7 @@ import { FOODS_DATA } from '../data/foods';
 @Component({
     selector: 'app-tree-grid-external-advanced-filtering',
     templateUrl: './tree-grid-external-advanced-filtering.component.html',
-    styleUrls: ['./tree-grid-external-advanced-filtering.component.scss']
+    styleUrls: ['./tree-grid-external-advanced-filtering.component.css']
 })
 export class TreeGridExternalAdvancedFilteringComponent {
 

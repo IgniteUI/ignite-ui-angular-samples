@@ -4,7 +4,7 @@ import { Subject } from 'rxjs';
 import { MyDynamicCardComponent } from '../overlay-dynamic-card/overlay-dynamic-card.component';
 @Component({
     selector: 'app-overlay-sample',
-    styleUrls: ['./overlay-position-sample-1.component.scss'],
+    styleUrls: ['./overlay-position-sample-1.component.css'],
     templateUrl: './overlay-position-sample-1.component.html',
     providers: [IgxOverlayService]
 })

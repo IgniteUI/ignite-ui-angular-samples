@@ -5,7 +5,7 @@ import {
 @Component({
     // tslint:disable-next-line:component-selector
     selector: 'app-expansion-sample-2',
-    styleUrls: ['./expansion-sample-2.component.scss'],
+    styleUrls: ['./expansion-sample-2.component.css'],
     templateUrl: './expansion-sample-2.component.html'
 })
 export class ExpansionPanelSample2Component {

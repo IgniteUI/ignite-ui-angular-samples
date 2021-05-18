@@ -21,7 +21,7 @@ class MySummary  {
 }
 @Component({
   selector: 'app-grid-sample-3',
-  styleUrls: ['./grid-sample-3.component.scss'],
+  styleUrls: ['./grid-sample-3.component.css'],
   templateUrl: './grid-sample-3.component.html'
 })
 export class GridSample3Component implements OnInit {

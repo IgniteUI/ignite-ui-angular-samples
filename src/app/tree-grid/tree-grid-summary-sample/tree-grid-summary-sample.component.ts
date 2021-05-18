@@ -4,7 +4,7 @@ import { FOODS_DATA } from '../data/foods';
 
 @Component({
   selector: 'app-tree-grid-summary-sample',
-  styleUrls: ['./tree-grid-summary-sample.component.scss'],
+  styleUrls: ['./tree-grid-summary-sample.component.css'],
   templateUrl: './tree-grid-summary-sample.component.html'
 })
 export class TreeGridSummarySampleComponent implements OnInit {

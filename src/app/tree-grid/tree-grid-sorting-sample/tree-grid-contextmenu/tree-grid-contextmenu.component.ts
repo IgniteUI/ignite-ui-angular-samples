@@ -3,7 +3,7 @@ import { IgxIconModule, SortingDirection } from 'igniteui-angular';
 
 @Component({
   selector: 'app-tree-grid-contextmenu',
-  styleUrls: ['./tree-grid-contextmenu.component.scss'],
+  styleUrls: ['./tree-grid-contextmenu.component.css'],
   templateUrl: './tree-grid-contextmenu.component.html'
 })
 export class TreeGridContextmenuComponent implements OnInit {

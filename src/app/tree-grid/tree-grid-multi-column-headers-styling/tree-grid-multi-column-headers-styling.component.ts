@@ -3,7 +3,7 @@ import { generateEmployeeDetailedFlatData } from '../data/employees-flat-detaile
 
 @Component({
   selector: 'app-tree-grid-multi-column-headers-styling',
-  styleUrls: ['./tree-grid-multi-column-headers-styling.component.scss'],
+  styleUrls: ['./tree-grid-multi-column-headers-styling.component.css'],
   templateUrl: './tree-grid-multi-column-headers-styling.component.html'
 })
 export class TreeGridMultiColumnHeadersStylingComponent {

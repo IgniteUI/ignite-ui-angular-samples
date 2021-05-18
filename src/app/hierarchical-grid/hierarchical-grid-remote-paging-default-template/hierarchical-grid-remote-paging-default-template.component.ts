@@ -5,7 +5,7 @@ import { RemotePagingService } from './remotePagingService';
 @Component({
     providers: [RemotePagingService],
     selector: 'app-hierarchical-grid-remote-paging-default-template',
-    styleUrls: ['./hierarchical-grid-remote-paging-default-template.component.scss'],
+    styleUrls: ['./hierarchical-grid-remote-paging-default-template.component.css'],
     templateUrl: 'hierarchical-grid-remote-paging-default-template.component.html'
 })
 

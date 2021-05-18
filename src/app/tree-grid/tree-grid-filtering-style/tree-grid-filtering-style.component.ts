@@ -3,7 +3,7 @@ import { FOODS_DATA } from '../data/foods';
 
 @Component({
   selector: 'app-tree-grid-filtering-style',
-  styleUrls: ['./tree-grid-filtering-style.component.scss'],
+  styleUrls: ['./tree-grid-filtering-style.component.css'],
   templateUrl: './tree-grid-filtering-style.component.html'
 })
 export class TreeGridFilteringStyleComponent implements OnInit {

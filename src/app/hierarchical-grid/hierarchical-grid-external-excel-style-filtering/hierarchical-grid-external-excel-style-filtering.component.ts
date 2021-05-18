@@ -6,7 +6,7 @@ import { SINGERS } from '../data';
     changeDetection: ChangeDetectionStrategy.OnPush,
     selector: 'app-hierarchical-grid-external-excel-style-filtering',
     templateUrl: './hierarchical-grid-external-excel-style-filtering.component.html',
-    styleUrls: ['./hierarchical-grid-external-excel-style-filtering.component.scss']
+    styleUrls: ['./hierarchical-grid-external-excel-style-filtering.component.css']
 })
 export class HGridExternalExcelStyleFilteringComponent implements AfterViewInit{
 

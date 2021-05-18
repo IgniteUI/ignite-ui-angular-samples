@@ -10,7 +10,7 @@ import { RemoteService } from '../../../grid/services/remote.service';
     providers: [RemoteService],
     selector: 'app-drop-down-remote',
     templateUrl: './drop-down-remote.component.html',
-    styleUrls: ['./drop-down-remote.component.scss']
+    styleUrls: ['./drop-down-remote.component.css']
 })
 export class DropDownRemoteComponent implements OnInit, OnDestroy, AfterViewInit {
     @ViewChild('loadingToast', { read: IgxToastComponent, static: true })

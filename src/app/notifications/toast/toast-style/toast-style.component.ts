@@ -3,7 +3,7 @@ import { IgxToastComponent, IgxToastPosition } from 'igniteui-angular';
 
 @Component({
     selector: 'app-toast-style',
-    styleUrls: ['./toast-style.component.scss'],
+    styleUrls: ['./toast-style.component.css'],
     templateUrl: './toast-style.component.html'
 })
 export class ToastStyleComponent {

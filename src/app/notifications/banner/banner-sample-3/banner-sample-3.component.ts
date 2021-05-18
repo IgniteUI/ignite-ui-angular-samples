@@ -3,7 +3,7 @@ import { IgxBannerComponent, slideInLeft, slideOutRight } from 'igniteui-angular
 
 @Component({
     selector: 'app-banner-sample-3',
-    styleUrls: ['../banner-samples.scss'],
+    styleUrls: ['../banner-samples.css'],
     templateUrl: 'banner-sample-3.component.html'
 })
 

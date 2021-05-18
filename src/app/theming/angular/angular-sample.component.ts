@@ -5,7 +5,7 @@ import { OverlayContainer } from '@angular/cdk/overlay';
 
 @Component({
     selector: 'app-angular-sample',
-    styleUrls: ['./angular-sample.component.scss'],
+    styleUrls: ['./angular-sample.component.css'],
     templateUrl: './angular-sample.component.html'
 })
 

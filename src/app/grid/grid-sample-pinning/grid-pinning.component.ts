@@ -9,7 +9,7 @@ const FILTERING_ICONS_FONT_SET = 'filtering-icons';
     encapsulation: ViewEncapsulation.None,
     providers: [],
     selector: 'app-grid-sample',
-    styleUrls: ['grid-pinning.component.scss'],
+    styleUrls: ['grid-pinning.component.css'],
     templateUrl: 'grid-pinning.component.html'
 
 })

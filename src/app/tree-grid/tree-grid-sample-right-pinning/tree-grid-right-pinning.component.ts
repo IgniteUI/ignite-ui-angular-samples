@@ -6,7 +6,7 @@ import { generateEmployeeDetailedFlatData } from '../data/employees-flat-detaile
     encapsulation: ViewEncapsulation.None,
     providers: [],
     selector: 'app-tree-grid-sample',
-    styleUrls: ['tree-grid-right-pinning.component.scss'],
+    styleUrls: ['tree-grid-right-pinning.component.css'],
     templateUrl: 'tree-grid-right-pinning.component.html'
 })
 

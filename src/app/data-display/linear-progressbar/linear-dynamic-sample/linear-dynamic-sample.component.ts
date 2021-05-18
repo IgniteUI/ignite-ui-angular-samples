@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
     selector: 'app-linear-dynamic-sample',
-    styleUrls: ['./linear-dynamic-sample.component.scss'],
+    styleUrls: ['./linear-dynamic-sample.component.css'],
     templateUrl: './linear-dynamic-sample.component.html'
 })
 export class LinearDynamicSampleComponent implements OnInit{

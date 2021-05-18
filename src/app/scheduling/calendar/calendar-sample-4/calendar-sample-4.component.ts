@@ -4,7 +4,7 @@ import { DateParser } from '../../../date-parser';
 @Component({
   providers: [DateParser],
   selector: 'app-calendar',
-  styleUrls: ['./calendar-sample-4.component.scss'],
+  styleUrls: ['./calendar-sample-4.component.css'],
   templateUrl: './calendar-sample-4.component.html'
 })
 

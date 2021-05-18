@@ -4,7 +4,7 @@ import { createData, IDrive } from '../../data/files.data';
 
 @Component({
     selector: 'app-hierarchical-grid-multi-row-drag',
-    styleUrls: ['./hierarchical-grid-multi-row-drag.component.scss'],
+    styleUrls: ['./hierarchical-grid-multi-row-drag.component.css'],
     templateUrl: 'hierarchical-grid-multi-row-drag.component.html'
 })
 

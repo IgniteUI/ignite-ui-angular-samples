@@ -3,7 +3,7 @@ import { DATA } from '../../data/customers';
 
 @Component({
   selector: 'app-grid-column-hiding-toolbar-style',
-  styleUrls: ['./grid-column-hiding-toolbar-style.component.scss'],
+  styleUrls: ['./grid-column-hiding-toolbar-style.component.css'],
   templateUrl: './grid-column-hiding-toolbar-style.component.html'
 })
 export class GridColumnHidingToolbarStyleComponent implements OnInit {

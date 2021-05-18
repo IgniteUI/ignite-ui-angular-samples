@@ -4,7 +4,7 @@ import { DATA } from '../services/financialData';
 
 @Component({
     selector: 'app-grid-moving-styled-sample',
-    styleUrls: ['./grid-moving-styled-sample.component.scss'],
+    styleUrls: ['./grid-moving-styled-sample.component.css'],
     templateUrl: './grid-moving-styled-sample.component.html'
 })
 

@@ -4,7 +4,7 @@ import { Singer, SINGERS } from '../../data/artistData';
 
 @Component({
     selector: 'app-hierarchical-grid-excel-export-sample',
-    styleUrls: ['hierarchical-grid-excel-export.sample.scss'],
+    styleUrls: ['hierarchical-grid-excel-export.sample.css'],
     templateUrl: 'hierarchical-grid-excel-export.sample.html'
 })
 export class HGridExcelExportSampleComponent {

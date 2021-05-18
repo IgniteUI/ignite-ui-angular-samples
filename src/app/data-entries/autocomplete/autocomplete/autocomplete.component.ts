@@ -2,7 +2,7 @@ import { Component, Pipe, PipeTransform } from '@angular/core';
 
 @Component({
     selector: 'app-autocomplete',
-    styleUrls: ['./autocomplete.component.scss'],
+    styleUrls: ['./autocomplete.component.css'],
     templateUrl: './autocomplete.component.html'
 })
 export class AutocompleteBasicComponent {

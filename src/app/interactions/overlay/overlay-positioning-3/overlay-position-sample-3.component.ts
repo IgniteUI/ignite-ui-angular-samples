@@ -3,7 +3,7 @@ import { AutoPositionStrategy, IgxOverlayService } from 'igniteui-angular';
 import { MyDynamicCardComponent } from '../overlay-dynamic-card/overlay-dynamic-card.component';
 @Component({
     selector: 'app-overlay-sample',
-    styleUrls: ['./overlay-position-sample-3.component.scss'],
+    styleUrls: ['./overlay-position-sample-3.component.css'],
     templateUrl: './overlay-position-sample-3.component.html',
     providers: [IgxOverlayService]
 })

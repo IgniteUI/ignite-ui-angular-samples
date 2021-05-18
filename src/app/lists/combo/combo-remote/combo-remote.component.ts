@@ -5,7 +5,7 @@ import { RemoteService } from '../../../grid/services/remote.service';
 @Component({
     providers: [RemoteService],
     selector: 'app-combo-remote',
-    styleUrls: ['./combo-remote.component.scss'],
+    styleUrls: ['./combo-remote.component.css'],
     templateUrl: './combo-remote.component.html'
 })
 export class ComboRemoteComponent implements OnInit, AfterViewInit {
