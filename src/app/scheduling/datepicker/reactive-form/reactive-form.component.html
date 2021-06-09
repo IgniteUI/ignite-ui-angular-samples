@@ -6,18 +6,15 @@
                 (valueChange)="timePicker.value = datePicker.value">
                     <label igxLabel>Date</label>
                 </igx-date-picker>
-                <span>Date: {{ dateTimeForm.value.date? dateTimeForm.value.date.toLocaleString() : null}}</span>
             </div>
             <div class="form-time-picker">
                 <igx-time-picker #timePicker formControlName="time" [value]="date" [minValue]="minTime" [maxValue]="maxTime"
                 [disabled]="dateTimeForm.value.date ? false : true" (valueChange)="datePicker.value = timePicker.value">
                     <label igxLabel>Time</label>
                 </igx-time-picker>
-                <span>Time: {{ dateTimeForm.value.time ? dateTimeForm.value.time.toLocaleString() : null}}</span>
             </div>
         </div>
     </form>
-    <p>
-        Form Status: {{ dateTimeForm.status }}
-    </p>
+    <p>Date: {{ dateTimeForm.value.date? dateTimeForm.value.date.toLocaleString() : null}}</p>
+    <p>Form Status: {{ dateTimeForm.status }}</p>
 </div>
