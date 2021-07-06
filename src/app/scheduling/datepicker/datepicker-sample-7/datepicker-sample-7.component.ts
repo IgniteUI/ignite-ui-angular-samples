@@ -36,7 +36,6 @@ export class DatepickerSample7Component {
     }
 
     private notify(message: string): void {
-        this.snackbar.message = message;
-        this.snackbar.open();
+        this.snackbar.open(message);
     }
 }
