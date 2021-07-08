@@ -1,7 +1,7 @@
 <div class="grid__wrapper">
     <igx-input-group type="search" class="offset">
         <igx-prefix>
-            <igx-icon *ngIf="searchText.length == 0">search</igx-icon>
+            <igx-icon *ngIf="searchText.length === 0">search</igx-icon>
             <igx-icon *ngIf="searchText.length > 0" (click)="clearSearch()">clear</igx-icon>
         </igx-prefix>
 
@@ -14,7 +14,7 @@
                     {{ treeGrid.lastSearchInfo.activeMatchIndex + 1 }} of {{ treeGrid.lastSearchInfo.matchInfoCache.length }}
                     results
                 </span>
-                <span *ngIf="treeGrid.lastSearchInfo.matchInfoCache.length == 0">
+                <span *ngIf="treeGrid.lastSearchInfo.matchInfoCache.length === 0">
                     No results
                 </span>
             </div>

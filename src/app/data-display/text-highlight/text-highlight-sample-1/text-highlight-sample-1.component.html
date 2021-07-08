@@ -1,6 +1,6 @@
 <igx-input-group type="search" class="input-group">
     <igx-prefix>
-        <igx-icon *ngIf="searchText.length == 0">search</igx-icon>
+        <igx-icon *ngIf="searchText.length === 0">search</igx-icon>
         <igx-icon *ngIf="searchText.length > 0" (click)="clearSearch()">clear</igx-icon>
     </igx-prefix>
 
@@ -19,7 +19,7 @@
                 <ng-container *ngIf="matchCount > 0">
                     {{ index + 1 }} of {{ matchCount }} results
                 </ng-container>
-                <ng-container *ngIf="matchCount == 0">
+                <ng-container *ngIf="matchCount === 0">
                     No results
                 </ng-container>
             </span>

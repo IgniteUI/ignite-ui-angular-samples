@@ -17,7 +17,7 @@
             <igx-column field="Discontinued" header="Discontinued" [dataType]="'boolean'">
             </igx-column>
         </igx-grid>
-        <div *ngIf="contextmenu==true">
+        <div *ngIf="contextmenu === true">
             <app-contextmenu [x]="contextmenuX" [y]="contextmenuY" [cell]="clickedCell" [selectedCells]="multiCellArgs" (cellValueCopy)="copy($event)">
             </app-contextmenu>
         </div>

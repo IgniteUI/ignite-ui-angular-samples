@@ -2,7 +2,7 @@
     <button igxButton (click) = "layout = 'column'" [igxRipple]="rippleColor" [selected]="true">Column</button>
     <button igxButton (click) = "layout = 'column-reverse'" [igxRipple]="rippleColor">Column reverse</button>
 </igx-buttongroup>
-<div *ngIf="layout == 'column'">
+<div *ngIf="layout === 'column'">
     <div class="layout-box" igxLayout igxLayoutDir="column">
         <div class="layout-box__el" igxFlex>1</div>
         <div class="layout-box__el" igxFlex>2</div>
@@ -10,7 +10,7 @@
     </div>
 </div>
 
-<div *ngIf="layout == 'column-reverse'">
+<div *ngIf="layout === 'column-reverse'">
     <div class="layout-box" igxLayout igxLayoutDir="column" igxLayoutReverse="true">
         <div class="layout-box__el" igxFlex>1</div>
         <div class="layout-box__el" igxFlex>2</div>
