@@ -8,7 +8,7 @@
         </igx-drop-down>
         <button id="download_excel" igxButton="raised" (click)="downloadExcel($event)">Download Sample Excel File</button>
     </div>
-    <igx-grid igxPreventDocumentScroll #grid1 [data]="data" [width]="'100%'" [height]="'450px'" [autoGenerate]="false" paste-handler (dataProcessed)="dataPasted($event)" [primaryKey]="'ID'">
+    <igx-grid igxPreventDocumentScroll [batchEditing]="true" #grid1 [data]="data" [width]="'100%'" [height]="'450px'" [autoGenerate]="false" paste-handler (dataProcessed)="dataPasted($event)" [primaryKey]="'ID'">
         <igx-column [field]="'Name'"></igx-column>
         <igx-column [field]="'Title'"></igx-column>
         <igx-column [field]="'Phone'"></igx-column>

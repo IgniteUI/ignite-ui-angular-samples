@@ -1,7 +1,7 @@
 import { Component, ViewChild } from '@angular/core';
+import { IgxGridComponent, RowType, Transaction } from 'igniteui-angular';
 import { DATA } from '../../data/nwindData';
 
-import { IgxGridComponent, RowType, Transaction } from 'igniteui-angular';
 
 @Component({
     selector: 'app-grid-row-action-strip',

@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 import { Component, OnInit, ViewChild } from '@angular/core';
+import { IgxDialogComponent, IgxGridComponent, Transaction } from 'igniteui-angular';
 import { DATA } from '../../data/nwindData';
 import { generateRandomInteger } from '../../data/utils';
 
-import { IgxDialogComponent, IgxGridComponent, Transaction } from 'igniteui-angular';
 
 @Component({
     selector: 'app-grid-row-edit',
@@ -14,8 +14,6 @@ export class GridBatchEditingSampleComponent implements OnInit {
     @ViewChild('grid', { read: IgxGridComponent, static: true }) public grid: IgxGridComponent;
     @ViewChild(IgxDialogComponent, { static: true }) public dialog: IgxDialogComponent;
 
-    public currentActiveGrid: { id: string; transactions: any[] } = { id: '', transactions: [] };
-
     public data: any[];
     public transactionsData: Transaction[] = [];
     private addProductId: number;
@@ -23,10 +21,6 @@ export class GridBatchEditingSampleComponent implements OnInit {
     public ngOnInit(): void {
         this.data = DATA;
         this.addProductId = this.data.length + 1;
-        this.transactionsData = this.grid.transactions.getAggregatedChanges(true);
-        this.grid.transactions.onStateUpdate.subscribe(() => {
-            this.transactionsData = this.grid.transactions.getAggregatedChanges(true);
-        });
     }
 
     public addRow() {
@@ -59,9 +53,9 @@ export class GridBatchEditingSampleComponent implements OnInit {
         this.grid.transactions.redo();
     }
 
-    public openCommitDialog(dialogGrid: IgxGridComponent) {
+    public openCommitDialog() {
+        this.transactionsData = this.grid.transactions.getAggregatedChanges(true);
         this.dialog.open();
-        dialogGrid.reflow();
     }
 
     public commit() {
@@ -74,7 +68,7 @@ export class GridBatchEditingSampleComponent implements OnInit {
         this.dialog.close();
     }
 
-    public stateFormatter(value: string) {
+    public stateFormatter(value: any) {
         return JSON.stringify(value);
     }
 

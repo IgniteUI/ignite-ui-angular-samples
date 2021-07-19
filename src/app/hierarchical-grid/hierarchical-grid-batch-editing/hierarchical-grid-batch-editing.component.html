@@ -1,41 +1,39 @@
 <div class="grid-wrapper">
     <button igxButton="raised" (click)="dialogAddSinger.open()" class="addSingerBtn">Add Singer</button>
-    <app-hierarchical-grid-with-transactions>
-        <igx-hierarchical-grid igxPreventDocumentScroll #hierarchicalGrid class="hgrid" [data]="data"
-            [primaryKey]="'Artist'" [height]="'550px'" [width]="'100%'" [rowEditable]="true">
-            <igx-column width="150px" [editable]="false">
-                <ng-template igxCell let-cell="cell" let-val>
-                    <button igxButton (click)="removeRow(cell.cellID.rowIndex)"
-                        [disabled]="cell.row.deleted">Delete</button>
-                </ng-template>
+    <igx-hierarchical-grid igxPreventDocumentScroll #hierarchicalGrid [batchEditing]="true" class="hgrid" [data]="data"
+        [primaryKey]="'Artist'" [height]="'550px'" [width]="'100%'" [rowEditable]="true">
+        <igx-column width="150px" [editable]="false">
+            <ng-template igxCell let-cell="cell" let-val>
+                <button igxButton (click)="removeRow(cell.cellID.rowIndex)"
+                    [disabled]="cell.row.deleted">Delete</button>
+            </ng-template>
+        </igx-column>
+        <igx-column field="Artist" header="Artist" [editable]="false" [dataType]="'string'"></igx-column>
+        <igx-column field="HasGrammyAward" header="Has Grammy Award?" [editable]="true" [dataType]="'boolean'">
+        </igx-column>
+        <igx-column field="Debut" header="Debut" [editable]="true" dataType="number" [formatter]="formatter">
+        </igx-column>
+        <igx-column field="GrammyNominations" header="Grammy Nominations" [editable]="true" dataType="number">
+        </igx-column>
+        <igx-column field="GrammyAwards" header="Grammy Awards" [editable]="true" dataType="number"></igx-column>
+
+        <igx-row-island #childGrid [key]="'Albums'" [primaryKey]="'Album'" [rowEditable]="true">
+            <igx-grid-toolbar [grid]="grid" *igxGridToolbar="let grid">
+
+                <button igxButton [disabled]="!grid.transactions.canUndo" (click)="undo(grid)">Undo</button>
+                <button igxButton [disabled]="!grid.transactions.canRedo" (click)="redo(grid)">Redo</button>
+
+            </igx-grid-toolbar>
+
+            <igx-column field="Album" [editable]="false" [dataType]="'string'"></igx-column>
+            <igx-column field="LaunchDate" header="Launch Date" [editable]="true" [dataType]="'date'"></igx-column>
+            <igx-column field="BillboardReview" header="Billboard Review" [editable]="true" dataType="number">
             </igx-column>
-            <igx-column field="Artist" header="Artist" [editable]="false" [dataType]="'string'"></igx-column>
-            <igx-column field="HasGrammyAward" header="Has Grammy Award?" [editable]="true" [dataType]="'boolean'">
+            <igx-column field="USBillboard200" header="US Billboard 200" [editable]="true" dataType="number">
             </igx-column>
-            <igx-column field="Debut" header="Debut" [editable]="true" dataType="number" [formatter]="formatter">
-            </igx-column>
-            <igx-column field="GrammyNominations" header="Grammy Nominations" [editable]="true" dataType="number">
-            </igx-column>
-            <igx-column field="GrammyAwards" header="Grammy Awards" [editable]="true" dataType="number"></igx-column>
 
-            <igx-row-island #childGrid [key]="'Albums'" [primaryKey]="'Album'" [rowEditable]="true">
-                <igx-grid-toolbar [grid]="grid" *igxGridToolbar="let grid">
-
-                    <button igxButton [disabled]="!grid.transactions.canUndo" (click)="undo(grid)">Undo</button>
-                    <button igxButton [disabled]="!grid.transactions.canRedo" (click)="redo(grid)">Redo</button>
-
-                </igx-grid-toolbar>
-
-                <igx-column field="Album" [editable]="false" [dataType]="'string'"></igx-column>
-                <igx-column field="LaunchDate" header="Launch Date" [editable]="true" [dataType]="'date'"></igx-column>
-                <igx-column field="BillboardReview" header="Billboard Review" [editable]="true" dataType="number">
-                </igx-column>
-                <igx-column field="USBillboard200" header="US Billboard 200" [editable]="true" dataType="number">
-                </igx-column>
-
-            </igx-row-island>
-        </igx-hierarchical-grid>
-    </app-hierarchical-grid-with-transactions>
+        </igx-row-island>
+    </igx-hierarchical-grid>
     <div class="buttons-row">
         <div class="buttons-wrapper">
             <button igxButton [disabled]="!hasTransactions" (click)="openCommitDialog()">Commit</button>

@@ -37,7 +37,6 @@ import { TreeGridAddRowSampleComponent } from './tree-grid-add-row-sample/tree-g
 import { TreeGridAdvancedFilteringSampleComponent } from './tree-grid-advanced-filtering-sample/tree-grid-advanced-filtering-sample.component';
 import { TreeGridAdvancedFilteringStyleComponent } from './tree-grid-advanced-filtering-style/tree-grid-advanced-filtering-style.component';
 import { TreeGridBatchEditingSampleComponent } from './tree-grid-batch-editing/tree-grid-batch-editing-sample.component';
-import { TreeGridWithTransactionsComponent } from './tree-grid-batch-editing/tree-grid-with-transactions.component';
 import { TreeGridCellSelectionComponent } from './tree-grid-cellSelection-sample/tree-grid-cellSelection.component';
 import { TreeGridClipboardSampleComponent } from './tree-grid-clipboard-operations-sample/tree-grid-clipboard-operations-sample.component';
 import { TreeGridMultiCollapsibleColumnGroupsComponent } from './tree-grid-collapsible-groups/tree-grid-collapsible-column-groups.component';
@@ -125,7 +124,6 @@ import { TreeGridMultiColumnHeadersExportComponent } from './tree-grid-multi-col
         TreeGridRowEditSampleComponent,
         TreeGridRowEditStyleComponent,
         TreeGridBatchEditingSampleComponent,
-        TreeGridWithTransactionsComponent,
         TreeGridEditingEventsComponent,
         TreeGridEmployeesSampleComponent,
         TreeGridPagingStyleSampleComponent,

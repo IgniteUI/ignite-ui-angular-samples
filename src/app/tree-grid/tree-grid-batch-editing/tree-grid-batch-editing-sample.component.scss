@@ -20,6 +20,12 @@ h4 {
     padding: 10px 0;
 }
 
+.list-container {
+    width: 600px;
+    height: 300px;
+    overflow-y: visible;
+}
+
 .transaction--update, .transaction--delete, .transaction--add {
     font-weight: 600;
 }

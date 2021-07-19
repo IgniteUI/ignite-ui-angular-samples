@@ -14,8 +14,6 @@ import { RemotePagingService } from '../../services/remotePaging.service';
 export class RemotePagingBatchEditingComponent implements OnInit, AfterViewInit, OnDestroy {
     @ViewChild('grid1', { static: true }) public grid1: IgxGridComponent;
     @ViewChild(IgxDialogComponent, { static: true }) public dialog: IgxDialogComponent;
-    @ViewChild('dialogGrid', { read: IgxGridComponent, static: true })
-    public dialogGrid: IgxGridComponent;
 
     public page = 0;
     public totalCount = 0;
@@ -42,10 +40,6 @@ export class RemotePagingBatchEditingComponent implements OnInit, AfterViewInit,
 
     public ngOnInit() {
         this.data = this.remoteService.remoteData.asObservable();
-        this.transactionsData = this.grid1.transactions.getAggregatedChanges(true);
-        this.grid1.transactions.onStateUpdate.subscribe(() => {
-            this.transactionsData = this.grid1.transactions.getAggregatedChanges(true);
-        });
         this._dataLengthSubscriber = this.remoteService.getDataLength().subscribe((data) => {
             this.totalCount = data;
             this._recordOnServer = data;
@@ -84,21 +78,21 @@ export class RemotePagingBatchEditingComponent implements OnInit, AfterViewInit,
     }
 
     public addRow() {
-      this.totalCount++;
-      const newID = this.generateRandomInteger(this.totalCount, this.totalCount * 100);
-      this.grid1.addRow({
-          ID: newID, ProductName: 'Product Name', QuantityPerUnit: 'Quantity per Unit',
-          SupplierName: 'Supplier Name', UnitsInStock: 1, Rating: 1
-      });
+        this.totalCount++;
+        const newID = this.generateRandomInteger(this.totalCount, this.totalCount * 100);
+        this.grid1.addRow({
+            ID: newID, ProductName: 'Product Name', QuantityPerUnit: 'Quantity per Unit',
+            SupplierName: 'Supplier Name', UnitsInStock: 1, Rating: 1
+        });
     }
 
     public deleteRow(rowID) {
         if (!this.grid1.data.some(d => d.ID === rowID)) {
-          this.totalCount--;
+            this.totalCount--;
         }
         this.grid1.deleteRow(rowID);
         if (this.grid1.dataView.length === 1) {
-          this.paginate(this.page - 1);
+            this.paginate(this.page - 1);
         }
     }
 
@@ -115,8 +109,8 @@ export class RemotePagingBatchEditingComponent implements OnInit, AfterViewInit,
     }
 
     public openCommitDialog() {
+        this.transactionsData = this.grid1.transactions.getAggregatedChanges(true);
         this.dialog.open();
-        this.dialogGrid.reflow();
     }
 
     public commit() {
@@ -142,6 +136,10 @@ export class RemotePagingBatchEditingComponent implements OnInit, AfterViewInit,
 
     public stateFormatter(value: string) {
         return JSON.stringify(value);
+    }
+
+    public typeFormatter(value: string) {
+        return value.toUpperCase();
     }
 
     public classFromType(type: string): string {

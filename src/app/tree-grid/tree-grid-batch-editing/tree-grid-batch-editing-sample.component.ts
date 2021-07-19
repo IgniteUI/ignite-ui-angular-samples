@@ -17,7 +17,7 @@ import { generateEmployeeFlatData, IEmployee } from '../data/employees-flat';
 export class TreeGridBatchEditingSampleComponent implements OnInit {
     @ViewChild('treeGrid', { static: true }) public treeGrid: IgxTreeGridComponent;
     @ViewChild(IgxDialogComponent, { static: true }) public dialog: IgxDialogComponent;
-    @ViewChild('dialogGrid', { read: IgxGridComponent, static: true }) public dialogGrid: IgxGridComponent;
+    @ViewChild('dialogGrid', { read: IgxGridComponent, static: true }) public dialogGrid!: IgxGridComponent;
 
     public data: IEmployee[];
     public transactionsData: Transaction[] = [];
@@ -26,10 +26,6 @@ export class TreeGridBatchEditingSampleComponent implements OnInit {
 
     public ngOnInit(): void {
         this.data = generateEmployeeFlatData();
-        this.transactionsData = this.treeGrid.transactions.getAggregatedChanges(true);
-        this.treeGrid.transactions.onStateUpdate.subscribe(() => {
-            this.transactionsData = this.treeGrid.transactions.getAggregatedChanges(true);
-        });
     }
 
     public addRow() {
@@ -92,9 +88,10 @@ export class TreeGridBatchEditingSampleComponent implements OnInit {
         this.dialog.close();
     }
 
-    public openCommitDialog(dialogGrid: IgxTreeGridComponent) {
+    public openCommitDialog() {
         this.dialog.open();
-        dialogGrid.reflow();
+        this.transactionsData = this.treeGrid.transactions.getAggregatedChanges(true);
+        this.dialogGrid.reflow();
     }
 
     public stateFormatter(value: string) {

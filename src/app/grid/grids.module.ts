@@ -21,7 +21,6 @@ import { GridAdvancedFilteringSampleComponent } from './grid-advanced-filtering-
 import { GridAdvancedFilteringStyleComponent } from './grid-advanced-filtering-style/grid-advanced-filtering-style.component';
 import { GridAllDataSummaryComponent } from './grid-allData-summary/grid-allData-summary.component';
 import { GridBatchEditingSampleComponent } from './grid-batch-editing/grid-batch-editing-sample.component';
-import { GridWithTransactionsComponent } from './grid-batch-editing/grid-transaction.component';
 import { RemotePagingBatchEditingComponent } from './grid-batchEditing-remotePaging/batch-editing-remote-paging.component';
 import { GridCellSelectionComponent } from './grid-cellSelection-sample/grid-cellSelection.component';
 import { GridClipboardSampleComponent } from './grid-clipboard-operations-sample/grid-clipboard-operations-sample.component';
@@ -125,13 +124,10 @@ import { GridSelectComponent } from './grid-select/grid-select-sample.component'
 import { GridColumnDataTypesSampleComponent } from './grid-column-data-types-sample/grid-column-data-types-sample.component';
 import { GridFormattedFilteringStrategyComponent } from './grid-formatted-filtering-strategy/grid-formatted-filtering-strategy.component';
 import { GridSummaryFormatterComponent } from './grid-summary-formatter/grid-summary-formatter.component';
-import { GridWithTransactions2Component } from './grid-batchEditing-remotePaging/transaction.component';
 import { GridMultiColumnHeadersExportComponent } from './multi-column-headers-export/multi-column-headers-export.component';
 
 @NgModule({
     declarations: [
-        GridWithTransactionsComponent,
-        GridWithTransactions2Component,
         GridBatchEditingSampleComponent,
         GridActionStripSampleComponent,
         GridColumnHidingSampleComponent,

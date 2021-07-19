@@ -19,7 +19,6 @@ import { HGridAdvancedFilteringStyleComponent } from './hierarchical-grid-advanc
 import { HGridAdvancedFilteringSampleComponent } from './hierarchical-grid-advanced-filtering/hierarchical-grid-advanced-filtering.component';
 import { HGridAllDataSummaryComponent } from './hierarchical-grid-allData-summary/hierarchical-grid-allData-summary.component';
 import { HGridBatchEditingSampleComponent } from './hierarchical-grid-batch-editing/hierarchical-grid-batch-editing.component';
-import { HierarchicalGridWithTransactionsComponent } from './hierarchical-grid-batch-editing/hierarchical-grid-transactions.component';
 import { HGridCollapsibleColumnGroupComponent } from './hierarchical-grid-collapsible-column-groups/hierarchical-grid-collapsible-column-groups.component';
 import { HierarchicalGridColumnHidingToolbarStyleComponent } from './hierarchical-grid-column-hiding-toolbar-style/hierarchical-grid-column-hiding-toolbar-style.component';
 import { HGridCostumHidingSampleComponent } from './hierarchical-grid-column-hiding/hierarchical-grid-custom-hiding.component';
@@ -127,7 +126,6 @@ import { HierarchicalGridPagerSampleComponent } from './hierarchical-grid-pager-
         HGridEditingStyleComponent,
         HGridEditingEventsComponent,
         HGridBatchEditingSampleComponent,
-        HierarchicalGridWithTransactionsComponent,
         HierarchicalGridLoDSampleComponent,
         HGridExcelStyleFilteringSample1Component,
         HGridExcelStyleFilteringSample2Component,

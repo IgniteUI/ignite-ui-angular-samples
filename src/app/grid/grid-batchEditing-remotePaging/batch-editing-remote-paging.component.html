@@ -1,6 +1,6 @@
 <div class="grid__wrapper">
-    <app-grid2-with-transactions>
-      <igx-grid igxPreventDocumentScroll #grid1 [data]="data | async" width="100%" height="580px" [perPage]="perPage" [rowEditable]="true" [primaryKey]="'ID'">
+
+      <igx-grid igxPreventDocumentScroll #grid1 [batchEditing]="true" [data]="data | async" width="100%" height="580px" [perPage]="perPage" [rowEditable]="true" [primaryKey]="'ID'">
 <igx-paginator>
 <!-- Auto migrated template content. Please, check your bindings! -->
 
@@ -31,7 +31,6 @@
           <igx-column field="UnitsInStock"></igx-column>
           <igx-column field="Rating"></igx-column>
       </igx-grid>
-    </app-grid2-with-transactions>
     
     <igx-dialog title="Submit the following transactions?">
         <igx-grid igxPreventDocumentScroll #dialogGrid [data]="transactionsData" [rowHeight]="64"

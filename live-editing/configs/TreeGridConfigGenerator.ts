@@ -33,7 +33,6 @@ import {AppModuleConfig, Config, IConfigGenerator} from 'igniteui-live-editing';
 export class TreeGridConfigGenerator implements IConfigGenerator {
     public additionalImports = {
         IgxPreventDocumentScrollModule: '../../src/app/directives/prevent-scroll.directive',
-        TreeGridWithTransactionsComponent: '../../src/app/tree-grid/tree-grid-batch-editing/tree-grid-with-transactions.component',
         RemoteValuesService: '../../src/app/tree-grid/tree-grid-excel-style-filtering-load-on-demand/remoteValues.service',
         TreeGridContextmenuComponent: '../../src/app/tree-grid/tree-grid-sorting-sample/tree-grid-contextmenu/tree-grid-contextmenu.component'
 };
@@ -92,13 +91,12 @@ export class TreeGridConfigGenerator implements IConfigGenerator {
         configs.push(new Config({
             additionalFiles: ['/src/app/directives/prevent-scroll.directive.ts',
                 '/src/app/data/utils.ts',
-                '/src/app/tree-grid/data/employees-flat.ts',
-                '/src/app/tree-grid/tree-grid-batch-editing/tree-grid-with-transactions.component.ts'
+                '/src/app/tree-grid/data/employees-flat.ts'
             ],
             appModuleConfig: new AppModuleConfig({
-                imports: ['IgxPreventDocumentScrollModule', 'IgxTreeGridModule', 'TreeGridBatchEditingSampleComponent', 'TreeGridWithTransactionsComponent',
+                imports: ['IgxPreventDocumentScrollModule', 'IgxTreeGridModule', 'TreeGridBatchEditingSampleComponent',
                     'IgxButtonModule', 'IgxDialogModule', 'IgxGridModule'],
-                ngDeclarations: ['TreeGridBatchEditingSampleComponent', 'TreeGridWithTransactionsComponent'],
+                ngDeclarations: ['TreeGridBatchEditingSampleComponent'],
                 ngImports: ['IgxPreventDocumentScrollModule', 'IgxTreeGridModule', 'IgxButtonModule', 'IgxDialogModule', 'IgxGridModule']
             }),
             component: 'TreeGridBatchEditingSampleComponent'

@@ -2,9 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import {
     IgxExcelExporterOptions,
     IgxExcelExporterService,
-    IgxGridComponent,
-    IgxGridTransaction,
-    IgxTransactionService
+    IgxGridComponent
 } from 'igniteui-angular';
 
 import { EXCEL_DATA, LOCAL_DATA } from './data';
@@ -12,9 +10,6 @@ import { EXCEL_DATA, LOCAL_DATA } from './data';
 import { first } from 'rxjs/operators';
 
 @Component({
-    providers: [
-        { provide: IgxGridTransaction, useClass: IgxTransactionService }
-    ],
     selector: 'app-grid-paste-sample',
     styleUrls: ['./grid-paste-sample.component.scss'],
     templateUrl: './grid-paste-sample.component.html'

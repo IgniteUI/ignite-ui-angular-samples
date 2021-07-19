@@ -1,43 +1,41 @@
 <div class="grid__wrapper">
-    <app-grid-with-transactions>
-        <igx-grid igxPreventDocumentScroll #gridRowEditTransaction [data]="data" [primaryKey]="'ProductID'" width="100%"
-            height="500px" [rowEditable]="true" [allowFiltering]="true" (onDataPreLoad)="actionstrip.hide()">
-            <igx-column field="ProductID" header="Product ID" [pinned]="true" [hidden]='true' [filterable]="false">
-            </igx-column>
-            <igx-column field="ProductName" header="Product Name" [dataType]="'string'" [sortable]="true"></igx-column>
-            <igx-column field="UnitPrice" header="Unit Price" [dataType]="'string'" [sortable]="true"></igx-column>
-            <igx-column field="UnitsOnOrder" header="Units On Order" dataType="number" [editable]="false"
-                [filterable]="false"></igx-column>
-            <igx-column field="UnitsInStock" header="Units In Stock" dataType="number" [sortable]="true">
-                <ng-template igxCellEditor let-cell="cell">
-                    <input name="units" [igxFocus]="true" [(ngModel)]="cell.editValue"
-                        style="color: black; width: 30px;" />
-                </ng-template>
-            </igx-column>
-            <igx-column field="QuantityPerUnit" header="Quantity Per Unit" [dataType]="'string'" [filterable]="false">
-            </igx-column>
-            <igx-column field="ReorderLevel" header="Reorder Level" dataType="number" [filterable]="false"></igx-column>
-            <igx-column field="Discontinued" header="Discontinued" [dataType]="'boolean'" [filterable]="false">
-            </igx-column>
-            <igx-action-strip #actionstrip>
-                <button title="Undo All" igxButton="icon" igxRipple *ngIf='isDirty(actionstrip.context)'
-                    (click)='undo(actionstrip.context)'>
-                    <igx-icon>undo</igx-icon>
-                </button>
-                <button title="Redo All" igxButton="icon" igxRipple
-                    *ngIf='!isDirty(actionstrip.context) && hasDiscardedTransactions(actionstrip.context)'
-                    (click)='redo(actionstrip.context)'>
-                    <igx-icon>redo</igx-icon>
-                </button>
-                <button title='Save' igxButton="icon" igxRipple *ngIf='isDirty(actionstrip.context)'
-                    (click)='commit(actionstrip.context)'>
-                    <igx-icon>save</igx-icon>
-                </button>
-                <button title="Delete" igxButton="icon" igxRipple *ngIf='!isDeleted(actionstrip.context)'
-                    (click)='actionstrip.context.delete()'>
-                    <igx-icon>delete</igx-icon>
-                </button>
-            </igx-action-strip>
-        </igx-grid>
-    </app-grid-with-transactions>
+    <igx-grid igxPreventDocumentScroll #gridRowEditTransaction [batchEditing]="true" [data]="data" [primaryKey]="'ProductID'" width="100%"
+        height="500px" [rowEditable]="true" [allowFiltering]="true" (onDataPreLoad)="actionstrip.hide()">
+        <igx-column field="ProductID" header="Product ID" [pinned]="true" [hidden]='true' [filterable]="false">
+        </igx-column>
+        <igx-column field="ProductName" header="Product Name" [dataType]="'string'" [sortable]="true"></igx-column>
+        <igx-column field="UnitPrice" header="Unit Price" [dataType]="'string'" [sortable]="true"></igx-column>
+        <igx-column field="UnitsOnOrder" header="Units On Order" dataType="number" [editable]="false"
+            [filterable]="false"></igx-column>
+        <igx-column field="UnitsInStock" header="Units In Stock" dataType="number" [sortable]="true">
+            <ng-template igxCellEditor let-cell="cell">
+                <input name="units" [igxFocus]="true" [(ngModel)]="cell.editValue"
+                    style="color: black; width: 30px;" />
+            </ng-template>
+        </igx-column>
+        <igx-column field="QuantityPerUnit" header="Quantity Per Unit" [dataType]="'string'" [filterable]="false">
+        </igx-column>
+        <igx-column field="ReorderLevel" header="Reorder Level" dataType="number" [filterable]="false"></igx-column>
+        <igx-column field="Discontinued" header="Discontinued" [dataType]="'boolean'" [filterable]="false">
+        </igx-column>
+        <igx-action-strip #actionstrip>
+            <button title="Undo All" igxButton="icon" igxRipple *ngIf='isDirty(actionstrip.context)'
+                (click)='undo(actionstrip.context)'>
+                <igx-icon>undo</igx-icon>
+            </button>
+            <button title="Redo All" igxButton="icon" igxRipple
+                *ngIf='!isDirty(actionstrip.context) && hasDiscardedTransactions(actionstrip.context)'
+                (click)='redo(actionstrip.context)'>
+                <igx-icon>redo</igx-icon>
+            </button>
+            <button title='Save' igxButton="icon" igxRipple *ngIf='isDirty(actionstrip.context)'
+                (click)='commit(actionstrip.context)'>
+                <igx-icon>save</igx-icon>
+            </button>
+            <button title="Delete" igxButton="icon" igxRipple *ngIf='!isDeleted(actionstrip.context)'
+                (click)='actionstrip.context.delete()'>
+                <igx-icon>delete</igx-icon>
+            </button>
+        </igx-action-strip>
+    </igx-grid>
 </div>

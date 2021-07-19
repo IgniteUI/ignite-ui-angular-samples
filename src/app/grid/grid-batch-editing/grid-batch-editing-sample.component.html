@@ -1,32 +1,30 @@
 <div class="grid__wrapper">
-    <app-grid-with-transactions>
-        <igx-grid igxPreventDocumentScroll #grid [data]="data" [primaryKey]="'ProductID'" width="100%" height="500px"
-            [rowEditable]="true">
-            <igx-column [editable]="false">
-                <ng-template igxCell let-cell="cell" let-val>
-                    <button igxButton (click)="grid.deleteRow(cell.cellID.rowID)"
-                        [disabled]="cell.row.deleted">Delete</button>
-                </ng-template>
-            </igx-column>
-            <igx-column field="ProductID" header="Product ID" [editable]="false"></igx-column>
-            <igx-column field="ProductName" header="Product Name" [dataType]="'string'"></igx-column>
-            <igx-column field="UnitPrice" header="Unit Price" [dataType]="'string'"></igx-column>
-            <igx-column field="UnitsOnOrder" header="Units On Order" dataType="number"></igx-column>
-            <igx-column field="UnitsInStock" header="Units In Stock" dataType="number"></igx-column>
-            <igx-column field="QuantityPerUnit" header="Quantity Per Unit" [dataType]="'string'"></igx-column>
-            <igx-column field="ReorderLevel" header="Reorder Level" dataType="number"></igx-column>
-            <igx-column field="SupplierID" header="Supplier ID" dataType="number"></igx-column>
-            <igx-column field="CategoryID" header="Category ID" dataType="number"></igx-column>
-            <igx-column field="Discontinued" header="Discontinued" [dataType]="'boolean'"></igx-column>
-        </igx-grid>
-    </app-grid-with-transactions>
+    <igx-grid igxPreventDocumentScroll #grid [batchEditing]="true" [data]="data" [primaryKey]="'ProductID'" width="100%" height="500px"
+        [rowEditable]="true">
+        <igx-column [editable]="false">
+            <ng-template igxCell let-cell="cell" let-val>
+                <button igxButton (click)="grid.deleteRow(cell.cellID.rowID)"
+                    [disabled]="cell.row.deleted">Delete</button>
+            </ng-template>
+        </igx-column>
+        <igx-column field="ProductID" header="Product ID" [editable]="false"></igx-column>
+        <igx-column field="ProductName" header="Product Name" [dataType]="'string'"></igx-column>
+        <igx-column field="UnitPrice" header="Unit Price" [dataType]="'string'"></igx-column>
+        <igx-column field="UnitsOnOrder" header="Units On Order" dataType="number"></igx-column>
+        <igx-column field="UnitsInStock" header="Units In Stock" dataType="number"></igx-column>
+        <igx-column field="QuantityPerUnit" header="Quantity Per Unit" [dataType]="'string'"></igx-column>
+        <igx-column field="ReorderLevel" header="Reorder Level" dataType="number"></igx-column>
+        <igx-column field="SupplierID" header="Supplier ID" dataType="number"></igx-column>
+        <igx-column field="CategoryID" header="Category ID" dataType="number"></igx-column>
+        <igx-column field="Discontinued" header="Discontinued" [dataType]="'boolean'"></igx-column>
+    </igx-grid>
     <div class="buttons-row">
         <button igxButton (click)="addRow()">Add Row</button>
         <div class="buttons-wrapper">
             <button igxButton [disabled]="!grid.transactions.canUndo" (click)="undo()">Undo</button>
             <button igxButton [disabled]="!grid.transactions.canRedo" (click)="redo()">Redo</button>
             <button igxButton [disabled]="grid.transactions.getAggregatedChanges(false).length < 1"
-                (click)="openCommitDialog(dialogGrid)">Commit</button>
+                (click)="openCommitDialog()">Commit</button>
         </div>
     </div>
     <igx-dialog #dialog title="Submit the following transactions?">
